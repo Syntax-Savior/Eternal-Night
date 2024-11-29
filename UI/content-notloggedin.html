@@ -43,6 +43,7 @@
       - custom js links
     -->
     <script src="content-notloggedin.js" defer></script>
+    <script src="modal.js" defer></script>
 
     <!--
       - GSAP animation library
@@ -1126,13 +1127,13 @@
 
             <div class="products-list">
 
-              <div class="card">
+              <div class="card" data-id="product-1">
 
                 <div class="card-banner">
 
                   <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
-                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="" width="585" height="390" class="img-cover">
+                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Alarm Clock Digital Clock Radio" width="585" height="390" class="img-cover">
                     </figure>
                   </a>
 
@@ -1168,7 +1169,7 @@
                     
                     <span class="title-small rating-text">800+ sold</span>
   
-                    <img src="Assets/Images/Icons/Top-Selling-7Days.png" alt="" class="top-selling-7days">
+                    <img src="Assets/Images/Icons/Top-Selling-7Days.png" alt="Top Selling in 7 Days" class="top-selling-7days">
 
                   </div>
 
@@ -1189,15 +1190,15 @@
 
                   <div class="discount-details">
 
-                    <img src="Assets/Images/Icons/Super-Deals.png" alt="" class="super-deals">
+                    <img src="Assets/Images/Icons/Super-Deals.png" alt="Super Deals" class="super-deals">
 
                     <span class="divider"></span>
 
-                    <img src="Assets/Images/Icons/Black-Friday.png" alt="" class="black-friday">
+                    <img src="Assets/Images/Icons/Black-Friday.png" alt="Black Friday" class="black-friday">
 
                     <span class="divider"></span>
 
-                    <img src="Assets/Images/Icons/Discount-Arrow.png" alt="" class="discount-arrow">
+                    <img src="Assets/Images/Icons/Discount-Arrow.png" alt="Discount Arrow" class="discount-arrow">
 
                     <span class="discount-percentage">-75%</span>
 
@@ -1208,9 +1209,9 @@
                 <div class="card-meta-list">
 
                   <div class="preview">
-                    <a href="#" class="btn btn-outline">
+                    <button type="button" class="btn btn-outline preview-btn" data-target="#productModal" data-product-id="product-1" aria-controls="productModal" aria-expanded="false">
                       <span class="label-medium">See Preview</span>
-                    </a>
+                    </button>
                   </div>
 
                   <div class="similar-items">
@@ -1227,7 +1228,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-2" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/5PC-Silk-Robe-Sleep-Suit.jpg" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -1328,7 +1329,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-3" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/Automatic-Drinking-Love-Pet-Bowl.jpg" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -1423,7 +1424,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-4" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/Bathroom-Shelf-Aluminum-Rack.jpeg" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -1526,7 +1527,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-5" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/Breathing-Otter.jpg" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -1629,7 +1630,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-6" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/Cardigan.png" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -1732,7 +1733,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-7" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/Cordless-Grinder.jpeg" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -1835,7 +1836,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-8" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/Day-Night-Driving-Glasses.jpeg" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -1938,7 +1939,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-9" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/Dish-Drying-Rack.jpg" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -2041,7 +2042,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-10" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/Fashion-Cross-Strap-Fluffy-Slippers-Women.png" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -2144,7 +2145,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-11" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/Giant-Bean-Bag.jpg" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -2247,7 +2248,7 @@
 
                 <div class="card-banner">
 
-                  <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+                  <a class="product" data-spm="product-12" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
                     <figure class="img-holder" style="--width: 585; --height: 390;">
                       <img src="Assets/Images/Products/Hallway-Shoe-Rack.jpg" alt="" width="585" height="390" class="img-cover">
                     </figure>
@@ -2349,6 +2350,355 @@
             </div>
 
           </div>
+        </section>
+
+        <!--
+          - #MODAL WINDOW
+        -->
+        
+        <section class="section modal" id="modalWindow" aria-hidden="true">
+
+          <div class="modal-container">
+            <div id="productModal" class="modal-wrapper hidden" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+
+              <button id="closePreview" class="close-preview" aria-label="Close modal">
+                <span class="material-symbols-outlined">close</span>
+              </button>
+
+              <div class="modal-content" id="modalContent">
+                <div class="modal-body">
+
+                  <div class="mini-wrap">
+                    <div class="mini-content-wrap">
+
+                      <div class="mini-content-left">
+                        <div class="main-image-wrap">
+
+                          <div class="image-view-wrap">
+
+                            <div class="slider-wrap">
+                              <div class="slider">
+                                <div class="slider-items-container">
+
+                                  <div class="slider-item">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                  <div class="slider-item space">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                  <div class="slider-item space">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                  <div class="slider-item space">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                  <div class="slider-item space">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                  <div class="slider-item space">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                  <div class="slider-item space">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                  <div class="slider-item space">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                  <div class="slider-item space">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                  <div class="slider-item space">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                  <div class="slider-item space">
+                                    <div class="slider-item-image">
+                                      <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image Variety">
+                                    </div>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="image-view-preview-wrap">
+                              <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Product Image" class="magnifier-image magnifier-zoom">
+                            </div>
+
+                          </div>
+
+                        </div>
+                      </div>
+
+                      <div class="mini-content-center">
+
+                        <div class="big-sale-banner">
+
+                          <div class="banner-background">
+                            <div class="banner-big-sale-content">
+                              <div class="banner-text">
+                                <img src="Assets/Images/Icons/Banner-Discount-Arrow.png" alt="Discount Arrow" width="10" height="14">
+                                <strong>
+                                  <span> Save ETB2,040.7 </span>
+                                </strong>
+                              </div>
+                            </div>
+                            <img src="Assets/Images/Icons/Black-Friday-Banner-Text.png" alt="Black Friday Sale" class="black-friday-slogan">
+                          </div>
+
+                          <div class="big-sale countdownwrap">
+                            <div class="countdown">
+                              <span class="before-text">Ends :</span>
+                              <div class="timer">Dec 4, 10:59 (GMT+3)</div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="price-wrap">
+
+                          <div class="price-current">
+                            <span class="current-price-text">ETB680.24</span>
+                          </div>
+
+                          <div class="price-original">
+                            <span class="price-originaltext">ETB2,720.94</span>
+                            <span class="price-discount">75% off</span>
+                          </div>
+
+                        </div>
+
+                        <div class="vat-installment-wrap">
+                          <span class="vat-installment-item">Tax excluded, add at checkout if applicable.</span>
+                          <span class="vat-installment-item"> | </span>
+                          <span class="vat-installment-item">Extra 20% off with coins</span>
+                        </div>
+
+                        <div class="coupon-block-wrap">
+                          <div class="coupon-block-box">
+                            <div class="coupon-block-item">
+                              <img src="Assets/Images/Icons/Price-Tag.png" alt="Price Tag Image" class="coupon-block-icon">
+                              <div class="coupon-block-content">
+                                <span>ETB417.32 off orders over ETB2,643.03</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="title-wrap">
+                          <h1>Alarm Clock Digital Clock Radio Wireless Charging LED</h1>
+                        </div>
+
+                        <div class="reviewer-wrap">
+
+                          <div class="reviews">
+
+                            <div class="reviewer-box">
+                              <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                              <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                              <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                              <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                              <span class="material-symbols-rounded" aria-hidden="true">star_half</span>
+                            </div>
+                            <span class="title-small rating-text">4.7</span>
+
+                            <div class="reviewer-reviews">
+                              <span> 53 Reviews | 800 sold </span>
+                            </div>
+
+                          </div>
+
+                        </div>
+                        <hr class="line-divider">
+
+                        <div class="color-picker-wrap">
+                          <div class="products-items">
+
+                            <div class="color-name">
+                              <span>Color: Black</span>
+                            </div>
+
+                            <div class="items-wrapper">
+                              <div class="items">
+
+                                <div class="product-item-img">
+                                  <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="White" class="color">
+                                </div>
+                                <div class="product-item-img">
+                                  <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Blue" class="color">
+                                </div>
+                                <div class="product-item-img">
+                                  <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Pink" class="color">
+                                </div>
+                                <div class="product-item-img">
+                                  <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Purple" class="color">
+                                </div>
+                                <div class="product-item-img">
+                                  <img src="Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Red" class="color">
+                                </div>
+
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <hr class="line-divider">
+
+                      </div>
+
+                      <div class="mini-content-right">
+                        <div class="action-container">
+
+                          <div class="action-wrap">
+
+                            <div class="store-detail-wrap">
+                              <div class="store-detail-title">Sold by</div>
+                              <div class="store-name-wrap">
+                                <span>WDWG Store(Trader)</span>
+                              </div>
+                            </div>
+                            <hr class="line-divider">
+
+                            <div class="choice-mind-wrap">
+                              <div class="choice-mind-mask"></div>
+                              <div class="choice-mind-box">
+                                <span>SeniorProject Commitment</span>
+                              </div>
+                            </div>
+
+                            <div class="action-details">
+
+                              <div class="total-price-plus-shipping">
+                                <img src="Assets/Images/Icons/Shipping-Truck.png" alt="Truck Icon" class="truck-icon">
+                                <div class="price-shipping-details">
+                                  <div class="dynamic-shipping">
+                                    <div class="dynamic-shipping-line dynamic-shipping-titleLayout">
+                                      <span>Shipping: ETB2,874.85</span>
+                                    </div>
+                                    <div class="dynamic-delivery-line dynamic-shipping-contentLayout">
+                                      <span>Delivery:</span>
+                                      &nbsp;
+                                      <span class="days">20-45 days</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div class="security-privacy">
+                                <img src="Assets/Images/Icons/Security.png" alt="Security Icon" class="security-icon">
+                                <div class="security-privacy-wrapper">
+                                  <div class="static-security-wrapper">
+                                    <div class="static-security-line static-security-titleLayout">
+                                      <span>Security & Privacy</span>
+                                    </div>
+                                    <div class="static-content-line static-security-contentLayout">
+                                      <div class="security-desc">
+                                        <span>
+                                          Safe payments: We do not share your personal details with any third parties without your consent.
+                                        </span>
+                                      </div>
+                                      <div class="security-desc">
+                                        <span>
+                                          Secure personal details: We protect your privacy and keep your personal details safe and secure.
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                            <hr class="line-divider">
+
+                            <div class="quantity">
+
+                              <div class="quantity-title">Quantity</div>
+
+                              <div class="quantity-input-number">
+
+                                <div class="input-number btn-decrease">
+                                  <span class="material-symbols-outlined">remove</span>
+                                </div>
+
+                                <input type="text" class="input-number" value="1">
+
+                                <div class="input-number btn-increase">
+                                  <span class="material-symbols-outlined">add</span>
+                                </div>
+
+                              </div>
+
+                              <div class="quantity-info">
+                                <div class="container">
+                                  <span>1270 available</span>
+                                </div>
+                              </div>
+
+                            </div>
+
+                            <div class="action-buttons">
+
+                              <div class="add-to-cart">
+                                <span>Add to cart</span>
+                              </div>
+
+                              <div class="share-and-wish-wrap">
+                                <a href="#" target="_blank" class="view-details">
+                                  <span class="share-and-wish-text">View details</span>
+                                </a>
+                                <div class="add-to-wish-list">
+                                  <span class="material-symbols-outlined favorite">favorite</span>
+                                  &nbsp;
+                                  <span class="add-to-wish-list-text">2551</span>
+                                </div>
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div id="modalOverlay" class="modal-overlay"></div>
+
         </section>
 
         <!--

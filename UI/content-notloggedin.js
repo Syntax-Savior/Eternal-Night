@@ -360,3 +360,10 @@ window.addEventListener("scroll", () => {
 $scrollTopIcon.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
+
+
+
+/**
+ * Modal Window Code
+ */
