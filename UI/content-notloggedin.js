@@ -56,6 +56,41 @@ $dropdownTrigger.addEventListener("click", () => {
 /**
  * Submenu Expanded List Effect
  */
+document.addEventListener("DOMContentLoaded", () => {
+  const /** {NodeElement} */ hmenuItems = document.querySelectorAll(".hmenu-items");
+  const /** {NodeElement} */ backButtons = document.querySelectorAll(".submenu-back-button");
+  const /** {NodeElement} */ menuItemsContainer = document.querySelector(".sidebar-menu-items");
+
+  function openSubmenu(submenuId) {
+    const /** {NodeElement} */ submenu = document.querySelector(`#${submenuId}`);
+    if (submenu) {
+      submenu.classList.add("active");
+      menuItemsContainer.classList.add("move-left");
+    }
+  }
+
+  function closeSubmenu(submenuId) {
+    const /** {NodeElement} */ submenu = document.querySelector(`#${submenuId}`);
+    if (submenu) {
+      submenu.classList.remove("active");
+      menuItemsContainer.classList.remove("move-left");
+    }
+  }
+
+  hmenuItems.forEach(item => {
+    item.addEventListener("click", e => {
+      const /** {NodeElement} */ submenuId = item.dataset.trigger;
+      openSubmenu(submenuId);
+    });
+  });
+
+  backButtons.forEach(button => {
+    button.addEventListener("click", e => {
+      const /** {NodeElement} */ submenuId = button.dataset.back;
+      closeSubmenu(submenuId);
+    });
+  });
+});
 
 
 
@@ -364,6 +399,3 @@ $scrollTopIcon.addEventListener("click", () => {
 
 
 
-/**
- * Modal Window Code
- */

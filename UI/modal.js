@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const body = document.body;
 
   const openModal = () => {
-    //modal.style.display = "flex";
     modal.classList.add("active");
     modalOverlay.classList.add("active");
 
@@ -16,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const closeModal = () => {
-    //modal.style.display = "none";
     modal.classList.remove("active");
     modalOverlay.classList.remove("active");
 
@@ -34,9 +32,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   modalOverlay.addEventListener("click", closeModal);
 
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && modal.style.display === "flex") {
-      closeModal();
-    }
-  });
 });
