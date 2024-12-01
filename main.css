@@ -135,12 +135,6 @@ body {
   line-height: var(--lh-body-medium);
 }
 
-/*html,
-body {
-  height: 100%;
-}*/
-
-/*html.no-scroll,*/
 body.no-scroll {
   overflow: hidden;
 }
@@ -2241,7 +2235,7 @@ select {
 .modal .mini-content-right .action-container .choice-mind-wrap .choice-mind-mask {
   position: absolute;
   display: block;
-  background-image: url(Assets/Images/Icons/Red-Linear-Gradient-Background.png);
+  background: linear-gradient(180deg, rgb(255, 229, 232) 0%, rgb(255, 255, 255) 100%);
   width: 344px;
   height: 44px;
   top: 0;
