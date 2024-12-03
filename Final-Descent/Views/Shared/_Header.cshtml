@@ -1,0 +1,425 @@
+﻿<header class="header" id="header" data-header>
+  <div class="container">
+
+    <div class="top-header">
+
+      <a href="#" class="logo">
+        <img src="/Assets/Images/SP-removebg-preview.png" width="100" alt="Senior Project">
+      </a>
+
+      <div class="search-box">
+
+        <input type="text" placeholder="Search">
+
+        <div class="image-search-wrapper">
+
+          <span class="material-symbols-outlined image-search-icon">image_search</span>
+
+          <div class="image-search-box" id="imageSearchBox">
+
+            <h5 class="image-search-title">Search by image</h5>
+            <p class="image-search-description">
+              Find what you love with better prices on Senior Project by using an image search
+            </p>
+
+            <div class="image-drop-zone">
+              <i class="fa-regular fa-image image-drop-icon"></i>
+              <span class="image-drop-text">Drag an image here</span>
+              <span class="image-drop-option">or</span>
+              <button class="image-upload-button">Upload a photo</button>
+            </div>
+
+            <p class="image-search-note">
+              *For a quick search hit CTRL+V to paste an image into the search box
+            </p>
+
+          </div>
+
+        </div>
+
+        <a href="#" class="search-icon">
+          <i class="fas fa-search"></i>
+        </a>
+
+      </div>
+
+      <div class="shopping-cart">
+        <a href="#" class="cart-icon">
+          <span class="material-symbols-outlined">shopping_cart</span>
+        </a>
+      </div>
+
+      <a href="#">
+        <button class="login-button">
+          <span>Login</span>
+        </button>
+      </a>
+
+      <a href="#">
+        <button class="sign-up-button">
+          <span>Sign Up</span>
+        </button>
+      </a>
+
+    </div>
+
+    <div class="navigation">
+
+      <span class="material-symbols-outlined close-icon" id="closeIcon">close</span>
+
+      <div class="sidebar-menu-categories" id="sidebarMenu">
+
+        <div class="sidebar-title">
+          <a href="#">
+            <span class="material-symbols-outlined">account_circle</span>
+            <h3>Hello, sign in</h3>
+          </a>
+        </div>
+
+        <div class="sidebar-menu-items">
+
+          <h4>Digital Content & Devices</h4>
+          <ul class="sidebar-list">
+
+            <li class="expand-right-menu">
+
+              <div class="hmenu-items" data-trigger="sp-music">
+                <a href="#" class="item">
+                  <span>SP Music</span>
+                </a>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+
+              <div class="submenu hidden" id="sp-music">
+
+                <div class="submenu-back-button" data-back="sp-music">
+                  <span class="material-symbols-outlined">keyboard_backspace</span>
+                  <a href="#">
+                    <h3>Main Menu</h3>
+                  </a>
+                </div>
+                <hr>
+
+                <h4>Stream Music</h4>
+                <ul>
+
+                  <li>
+                    <a href="#" class="link submenu-items">SP Music Unlimited</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Free Streaming Music</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Podcasts</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Open Web Player</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Download the app</a>
+                  </li>
+
+                </ul>
+              </div>
+
+            </li>
+
+            <li class="expand-right-menu">
+              <div class="hmenu-items" data-trigger="kindle-books">
+                <a href="#" class="item">
+                  <span>Kindle E-readers & Books</span>
+                </a>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+            </li>
+
+            <li class="expand-right-menu">
+              <div class="hmenu-items" data-trigger="sp-appstore">
+                <a href="#" class="item">
+                  <span>SP Appstore</span>
+                </a>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+            </li>
+
+          </ul>
+          <hr>
+
+          <h4>Shop by Department</h4>
+          <ul class="sidebar-list">
+
+            <li class="expand-right-menu">
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>Electronics</span>
+                </a>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+            </li>
+
+            <li class="expand-right-menu">
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>Computers</span>
+                </a>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+            </li>
+
+            <li class="expand-right-menu">
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>Smart Home</span>
+                </a>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+            </li>
+
+            <li class="expand-right-menu">
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>Arts & Crafts</span>
+                </a>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+            </li>
+
+            <li class="dropdown-list">
+
+              <div class="hmenu-items" id="dropdownTrigger">
+                <a href="#" class="item">
+                  <span id="dropdownText">See all</span>
+                </a>
+                <span class="material-symbols-outlined" id="dropdownIcon">keyboard_arrow_down</span>
+              </div>
+
+              <div class="submenu" id="dropdownMenu">
+                <ul>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Automotive</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Baby</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Beauty and Personal Care</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Women's Fashion</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Men's Fashion</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Girl's Fashion</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Boy's Fashion</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Health and Household</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Home and Kitchen</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Industrial and Scientific</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Luggage</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Movies & Television</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Pet Supplies</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Software</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Sports and Outdoors</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Tools & Home Improvement</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Toys and Games</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                  <li>
+                    <a href="#" class="link submenu-items">Video Games</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </li>
+
+                </ul>
+              </div>
+
+            </li>
+
+          </ul>
+          <hr>
+
+          <h4>Programs & Features</h4>
+          <ul class="sidebar-list">
+
+            <li class="expand-right-menu">
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>Gift Cards</span>
+                </a>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+            </li>
+
+            <li class="expand-right-menu">
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>Shop By Interest</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="expand-right-menu">
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>SP Live</span>
+                </a>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+            </li>
+
+            <li class="expand-right-menu">
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>International Shopping</span>
+                </a>
+                <span class="material-symbols-outlined">chevron_right</span>
+              </div>
+            </li>
+
+            <li class="dropdown-list">
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>See all</span>
+                </a>
+                <span class="material-symbols-outlined">keyboard_arrow_down</span>
+              </div>
+            </li>
+
+          </ul>
+          <hr>
+
+          <h4>Help & Settings</h4>
+          <ul class="sidebar-help-menu">
+
+            <li>
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>Your Account</span>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span class="material-symbols-outlined icon">language</span>
+                  <span>English</span>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <img src="/Assets/Images/Flags/002-ethiopia.png" alt="Country" class="icon">
+                  <span>Ethiopia</span>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>Customer Service</span>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="hmenu-items">
+                <a href="#" class="item">
+                  <span>Sign in</span>
+                </a>
+              </div>
+            </li>
+
+          </ul>
+          <hr class="last-line">
+
+        </div>
+
+      </div>
+
+      <div id="overlay"></div>
+
+      <div class="navigation-items">
+
+        <div class="sidebar-icon" id="openMenu">
+          <span class="material-symbols-outlined">menu</span>
+          <span class="icon-description">All</span>
+        </div>
+
+        <a href="#">Today's Deals</a>
+        <a href="#">New Arrivals</a>
+        <a href="#">Best Sellers</a>
+        <a href="#">Pre-owned</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Customer Service</a>
+        <a href="#">FAQs</a>
+      </div>
+
+    </div>
+
+  </div>
+</header>
