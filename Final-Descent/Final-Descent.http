@@ -1,0 +1,6 @@
+@Final_Descent_HostAddress = http://localhost:5109
+
+GET {{Final_Descent_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

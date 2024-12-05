@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" dir="ltr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--
+      - primary meta tags
+    -->
+    <title>Senior Project</title>
+    <meta name="title" content="Senior Project">
+    <meta name="description" content="Build your online store and start selling with ease. Our all-in-one platform empowers you to create, customize, and manage your store, showcase products, track sales analytics, engage customers, and grow your business. Join today and launch your e-commerce journey with tools designed for success.">
+
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="Assets/Images/SP.jpeg" type="image/jpeg">
+
+    <!--
+      - google font links
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--
+      - google icons links
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+
+    <!--
+      - font awesome icons
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!--
+      - custom css links
+    -->
+    <link rel="stylesheet" href="main.css">
+
+    <!--
+      - custom js links
+    -->
+    <script src="main.js" defer></script>
+    <script src="modal.js" defer></script>
+
+    <!--
+      - GSAP animation library
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!--
+      - Preload images
+    -->
+    <link rel="Preload" href="Assets/Videos/Island.mp4" as="video" type="video/mp4">
+    <link rel="Preload" href="Assets/Videos/Nike-Zoom.mp4" as="video" type="video/mp4">
+    <link rel="Preload" href="Assets/Videos/CHANEL-Iconic.mp4" as="video" type="video/mp4">
+    <link rel="Preload" href="Assets/Videos/Nike-Women.mp4" as="video" type="video/mp4">
+    <link rel="Preload" href="Assets/Videos/Philips.mp4" as="video" type="video/mp4">
+
+  </head>
+  <body>
+
+    <!--
+      - #HEADER
+    -->
+
+    <header class="header" id="header" data-header>
+      <div class="container">
+        
+        <div class="top-header">
+
+          <a href="#" class="logo">
+            <img src="Assets/Images/SP-removebg-preview.png" width="100" alt="Senior Project">
+          </a>
+
+          <div class="search-box">
+  
+            <input type="text" placeholder="Search">
+
+            <div class="image-search-wrapper">
+
+              <span class="material-symbols-outlined image-search-icon">image_search</span>
+
+              <div class="image-search-box" id="imageSearchBox">
+  
+                <h5 class="image-search-title">Search by image</h5>
+                <p class="image-search-description">
+                  Find what you love with better prices on Senior Project by using an image search
+                </p>
+  
+                <div class="image-drop-zone">
+                  <i class="fa-regular fa-image image-drop-icon"></i>
+                  <span class="image-drop-text">Drag an image here</span>
+                  <span class="image-drop-option">or</span>
+                  <button class="image-upload-button">Upload a photo</button>
+                </div>
+  
+                <p class="image-search-note">
+                  *For a quick search hit CTRL+V to paste an image into the search box
+                </p>
+  
+              </div>
+
+            </div>
+
+            <a href="#" class="search-icon">
+              <i class="fas fa-search"></i>
+            </a>
+            
+          </div>
+
+          <div class="shopping-cart">
+            <a href="#" class="cart-icon">
+              <span class="material-symbols-outlined">shopping_cart</span>
+            </a>
+          </div>
+
+          <a href="#">
+            <button class="login-button">
+              <span>Login</span>
+            </button>
+          </a>
+
+          <a href="#">
+            <button class="sign-up-button">
+              <span>Sign Up</span>
+            </button>
+          </a>
+
+        </div>
+
+        <div class="navigation">
+
+          <span class="material-symbols-outlined close-icon" id="closeIcon">close</span>
+          
+          <div class="sidebar-menu-categories" id="sidebarMenu">
+
+            <div class="sidebar-title">
+              <a href="#">
+                <span class="material-symbols-outlined">account_circle</span>
+                <h3>Hello, sign in</h3>
+              </a>
+            </div>
+
+            <div class="sidebar-menu-items">
+
+              <h4>Digital Content & Devices</h4>
+              <ul class="sidebar-list">
+  
+                <li class="expand-right-menu">
+  
+                  <div class="hmenu-items" data-trigger="sp-music">
+                    <a href="#" class="item">
+                      <span>SP Music</span>
+                    </a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+  
+                  <div class="submenu hidden" id="sp-music">
+  
+                    <div class="submenu-back-button" data-back="sp-music">
+                      <span class="material-symbols-outlined">keyboard_backspace</span>
+                      <a href="#">
+                        <h3>Main Menu</h3>
+                      </a>
+                    </div>
+                    <hr>
+  
+                    <h4>Stream Music</h4>
+                    <ul>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">SP Music Unlimited</a>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Free Streaming Music</a>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Podcasts</a>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Open Web Player</a>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Download the app</a>
+                      </li>
+  
+                    </ul>
+                  </div>
+  
+                </li>
+  
+                <li class="expand-right-menu">
+                  <div class="hmenu-items" data-trigger="kindle-books">
+                    <a href="#" class="item">
+                      <span>Kindle E-readers & Books</span>
+                    </a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+                </li>
+  
+                <li class="expand-right-menu">
+                  <div class="hmenu-items" data-trigger="sp-appstore">
+                    <a href="#" class="item">
+                      <span>SP Appstore</span>
+                    </a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+                </li>
+  
+              </ul>
+              <hr>
+  
+              <h4>Shop by Department</h4>
+              <ul class="sidebar-list">
+  
+                <li class="expand-right-menu">
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>Electronics</span>
+                    </a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+                </li>
+  
+                <li class="expand-right-menu">
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>Computers</span>
+                    </a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+                </li>
+  
+                <li class="expand-right-menu">
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>Smart Home</span>
+                    </a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+                </li>
+  
+                <li class="expand-right-menu">
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>Arts & Crafts</span>
+                    </a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+                </li>
+  
+                <li class="dropdown-list">
+  
+                  <div class="hmenu-items" id="dropdownTrigger">
+                    <a href="#" class="item">
+                      <span id="dropdownText">See all</span>
+                    </a>
+                    <span class="material-symbols-outlined" id="dropdownIcon">keyboard_arrow_down</span>
+                  </div>
+  
+                  <div class="submenu" id="dropdownMenu">
+                    <ul>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Automotive</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Baby</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Beauty and Personal Care</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Women's Fashion</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Men's Fashion</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Girl's Fashion</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Boy's Fashion</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Health and Household</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Home and Kitchen</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Industrial and Scientific</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Luggage</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Movies & Television</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Pet Supplies</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Software</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Sports and Outdoors</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Tools & Home Improvement</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Toys and Games</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                      <li>
+                        <a href="#" class="link submenu-items">Video Games</a>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                      </li>
+  
+                    </ul>
+                  </div>
+  
+                </li>
+  
+              </ul>
+              <hr>
+  
+              <h4>Programs & Features</h4>
+              <ul class="sidebar-list">
+  
+                <li class="expand-right-menu">
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>Gift Cards</span>
+                    </a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+                </li>
+  
+                <li class="expand-right-menu">
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>Shop By Interest</span>
+                    </a>
+                  </div>
+                </li>
+  
+                <li class="expand-right-menu">
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>SP Live</span>
+                    </a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+                </li>
+  
+                <li class="expand-right-menu">
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>International Shopping</span>
+                    </a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+                </li>
+  
+                <li class="dropdown-list">
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>See all</span>
+                    </a>
+                    <span class="material-symbols-outlined">keyboard_arrow_down</span>
+                  </div>
+                </li>
+  
+              </ul>
+              <hr>
+  
+              <h4>Help & Settings</h4>
+              <ul class="sidebar-help-menu">
+  
+                <li>
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>Your Account</span>
+                    </a>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span class="material-symbols-outlined icon">language</span>
+                      <span>English</span>
+                    </a>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <img src="Assets/Images/Flags/002-ethiopia.png" alt="Country" class="icon">
+                      <span>Ethiopia</span>
+                    </a>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>Customer Service</span>
+                    </a>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="hmenu-items">
+                    <a href="#" class="item">
+                      <span>Sign in</span>
+                    </a>
+                  </div>
+                </li>
+  
+              </ul>
+              <hr class="last-line">
+
+            </div>
+
+          </div>
+
+          <div id="overlay"></div>
+
+          <div class="navigation-items">
+
+            <div class="sidebar-icon" id="openMenu">
+              <span class="material-symbols-outlined">menu</span>
+              <span class="icon-description">All</span>
+            </div>
+
+            <a href="#">Today's Deals</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Best Sellers</a>
+            <a href="#">Pre-owned</a>
+            <a href="#">Shop</a>
+            <a href="#">About Us</a>
+            <a href="#">Customer Service</a>
+            <a href="#">FAQs</a>
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+
+    <!--
+      - #MAIN
+    -->
+    
+    <main>
+      <article>
+
+      </article>
+    </main>
+
+    <!--
+      - #FOOTER
+    -->
+    
+    <footer class="footer">
+
+      <div class="footer-top">
+        <div class="container">
+
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img src="Assets/Images/SP-removebg-preview.png" width="100" alt="Senior Project">
+            </a>
+
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet consectetur. Non bibendum sit non congue pharetra pulvinar leo.
+              Sed ut amet ipsum.
+            </p>
+          </div>
+
+          <nav class="footer-nav" aria-labelledby="nav-lebel-1">
+            <h3 class="footer-list-title">Support<div class="underline"><span></span></div></h3>
+
+            <ul class="footer-list">
+
+              <li>
+                <a href="#" class="footer-link">Shipping</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Return Policy</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Order Status</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Payment Options</a>
+              </li>
+
+            </ul>
+
+          </nav>
+
+          <nav class="footer-nav" aria-labelledby="nav-label-2">
+            <h3 class="footer-list-title">Links<div class="underline"><span></span></div></h3>
+
+            <ul class="footer-list">
+
+              <li>
+                <a href="#" class="footer-link">About Us</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Contact Us</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Terms & Conditions</a>
+              </li>
+
+            </ul>
+
+          </nav>
+
+          <nav class="footer-nav" aria-labelledby="nav-label-3">
+            <h3 class="footer-list-title">Get in touch<div class="underline"><span></span></div></h3>
+
+            <form>
+
+              <i class="fa-regular fa-envelope footer-en"></i>
+
+              <input type="email" placeholder="youremail@gmail.com" required>
+
+              <button type="submit">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+
+            </form>
+
+            <ul class="address-list">
+
+              <li>
+                <a href="#" class="address-link">hello@seniorproject.com</a>
+              </li>
+
+              <li>
+                <address class="address">
+                  1234 Main St, Anytown, ETH
+                </address>
+              </li>
+
+            </ul>
+
+            <div class="social-list">
+  
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-facebook-f footer-socials"></i>
+              </a>
+  
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-instagram footer-socials"></i>
+              </a>
+  
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-tiktok footer-socials"></i>
+              </a>
+  
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-x-twitter footer-socials"></i>
+              </a>
+  
+            </div>
+
+          </nav>
+
+        </div>
+      </div>
+      <hr>
+
+      <div class="footer-middle">
+        <div class="footer-nav">
+
+          <a href="#" aria-label="Choose a language" aria-expanded="false" class="icp-button">
+            <span class="icp-icon">
+              <i class="fa-solid fa-globe"></i>
+            </span>
+            <span class="icp-text">English</span>
+            <span class="dropdown-icon">
+              <i class="fa-solid fa-caret-down"></i>
+            </span>
+          </a>
+
+          <a href="#" aria-label="Choose a currency" aria-expanded="false" class="icp-button">
+            <span class="icp-icon">
+              <span>$</span>
+            </span>
+            <span class="icp-text">USD - U.S. Dollar</span>
+          </a>
+
+          <a href="#" aria-label="Choose a region" aria-expanded="false" class="icp-button">
+            <span class="icp-icon">
+              <img src="Assets/Images/Flags/001-united-states.png" alt="United States Flag">
+            </span>
+            <span class="icp-text">United States</span>
+          </a>
+
+        </div>
+      </div>
+      <hr>
+
+      <div class="footer-bottom">
+
+        <div class="container">
+
+          <nav class="footer-nav" aria-labelledby="nav-lebel-1">
+            <h3 class="footer-list-title">Get to Know Us<div class="underline"><span></span></div></h3>
+
+            <ul class="footer-list">
+
+              <li>
+                <a href="#" class="footer-link">Careers</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Blog</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Investor Relations</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Senior Project Devices</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Senior Project Science</a>
+              </li>
+
+            </ul>
+
+          </nav>
+
+          <nav class="footer-nav" aria-labelledby="nav-label-2">
+            <h3 class="footer-list-title">Make Money with Us<div class="underline"><span></span></div></h3>
+
+            <ul class="footer-list">
+
+              <li>
+                <a href="#" class="footer-link">Sell Products on Senior Project</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Sell on Senior Projects</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Sell apps on Senior Project</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Become an Affiliate</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Advertise Your Products</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Self-Publish with Us</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Host an SP Hub</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">See More 'Make Money with Us'</a>
+              </li>
+
+            </ul>
+
+          </nav>
+
+          <nav class="footer-nav" aria-labelledby="nav-lebel-3">
+            <h3 class="footer-list-title">Senior Project Payment Products<div class="underline"><span></span></div></h3>
+
+            <ul class="footer-list">
+
+              <li>
+                <a href="#" class="footer-link">SP Business Card</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Shop with Points</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Reload Your Balance</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Sp Currency Converter</a>
+              </li>
+
+            </ul>
+
+          </nav>
+
+          <nav class="footer-nav" aria-labelledby="nav-label-4">
+            <h3 class="footer-list-title">Let Us Help You<div class="underline"><span></span></div></h3>
+
+            <ul class="footer-list">
+
+              <li>
+                <a href="#" class="footer-link">SP and Covid-19</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Your Account</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Your Orders</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Shipping Rates & Policies</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Returns & Replacements</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Manage Your Content and Devices</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Help</a>
+              </li>
+
+            </ul>
+
+          </nav>
+
+        </div>
+        <hr>
+
+        <div class="links">
+          <ul>
+
+            <li class="nav-first">
+              <a href="#">Conditions of Use</a>
+            </li>
+
+            <li>
+              <a href="#">Privacy Notice</a>
+            </li>
+
+            <li>
+              <a href="#">Consumer Health Data Privacy Disclosure</a>
+            </li>
+
+            <li>
+              <a href="#">Your Ads Privacy Choices</a>
+            </li>
+
+            <li class="nav-last">
+              <img src="Assets/Images/Icons/Privacy-Options.jpeg" alt="Privacy Options Icon">
+            </li>
+
+          </ul>
+        </div>
+
+        <p class="copyright">
+          Senior Project &copy; 2025 - All rights reserved.
+        </p>
+
+      </div>
+
+    </footer>
+    
+  </body>
+</html>
