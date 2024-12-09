@@ -1,6 +1,36 @@
 'use strict';
 
 /**
+ * Header Scroll Effect
+ */
+let lastScrollTop = 0;
+
+const /** {NodeElement} */ $header = document.querySelector('header');
+const /** {NodeElement} */ $scrollThreshold = 50;
+
+window.addEventListener('scroll', function() {
+  const /** {NodeElement} */ $scrollTop = window.pageYOffset || document.documentElement.$scrollTop;
+
+  if ($scrollTop > lastScrollTop && $scrollTop > $scrollThreshold) {
+    $header.classList.add('hidden');
+  } else {
+    $header.classList.remove('hidden');
+  }
+
+  if ($scrollTop > $scrollThreshold) {
+    $header.classList.add('scrolled');
+  } else {
+    $header.classList.remove('scrolled');
+  }
+
+  lastScrollTop = $scrollTop;
+});
+
+
+
+
+
+/**
  * Sidebar Menu Open, Close, and Overlay Effect
  */
 const /** {NodeElement} */ $menuIcon = document.getElementById('openMenu');
@@ -172,36 +202,6 @@ function movingImage(e){
     layer.style.transform = `translateX(${$x}px) translateY(${$y}px)`
   });
 };
-
-
-
-
-
-/**
- * Header Scroll Effect
- */
-let lastScrollTop = 0;
-
-const /** {NodeElement} */ $header = document.querySelector('header');
-const /** {NodeElement} */ $scrollThreshold = 50;
-
-window.addEventListener('scroll', function() {
-  const /** {NodeElement} */ $scrollTop = window.pageYOffset || document.documentElement.$scrollTop;
-
-  if ($scrollTop > lastScrollTop && $scrollTop > $scrollThreshold) {
-    $header.classList.add('hidden');
-  } else {
-    $header.classList.remove('hidden');
-  }
-
-  if ($scrollTop > $scrollThreshold) {
-    $header.classList.add('scrolled');
-  } else {
-    $header.classList.remove('scrolled');
-  }
-
-  lastScrollTop = $scrollTop;
-});
 
 
 

@@ -536,8 +536,8 @@ select {
 
 /* ========== Sidebar Menu Styling. ========== */
 .sidebar-icon {
-  position: fixed;
-  left: 7.3vw;
+  position: relative;
+  left: -16vw;
   display: flex;
   font-size: 16px;
   font-weight: 600;
