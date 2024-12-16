@@ -31,29 +31,6 @@ function closeSidebar() {
 
 
 /**
- * Submenu Dropdown List Effect
- */
-const /** {NodeElement} */ $dropdownTrigger = document.getElementById("dropdownTrigger");
-const /** {NodeElement} */ $dropdownMenu = document.getElementById("dropdownMenu");
-const /** {NodeElement} */ $dropdownText = document.getElementById("dropdownText");
-const /** {NodeElement} */ $dropdownIcon = document.getElementById("dropdownIcon");
-
-$dropdownTrigger.addEventListener("click", () => {
-  $dropdownMenu.classList.toggle("active");
-  $dropdownTrigger.classList.toggle("active");
-
-  if ($dropdownMenu.classList.contains("active")) {
-    $dropdownText.textContent = "See less";
-  } else {
-    $dropdownText.textContent = "See all";
-  }
-});
-
-
-
-
-
-/**
  * Submenu Expanded List Effect
  */
 document.addEventListener("DOMContentLoaded", () => {
@@ -89,5 +66,75 @@ document.addEventListener("DOMContentLoaded", () => {
       const /** {NodeElement} */ submenuId = button.dataset.back;
       closeSubmenu(submenuId);
     });
+  });
+});
+
+
+
+
+
+/**
+ * Submenu Dropdown List Effect
+ */
+const /** {NodeElement} */ $dropdownTrigger = document.getElementById("dropdownTrigger");
+const /** {NodeElement} */ $dropdownMenu = document.getElementById("dropdownMenu");
+const /** {NodeElement} */ $dropdownText = document.getElementById("dropdownText");
+const /** {NodeElement} */ $dropdownIcon = document.getElementById("dropdownIcon");
+
+$dropdownTrigger.addEventListener("click", () => {
+  $dropdownMenu.classList.toggle("active");
+  $dropdownTrigger.classList.toggle("active");
+
+  if ($dropdownMenu.classList.contains("active")) {
+    $dropdownText.textContent = "See less";
+  } else {
+    $dropdownText.textContent = "See all";
+  }
+});
+
+
+
+
+
+/**
+ * Customer Review Left Column Dropdown Effect
+ */
+document.addEventListener("DOMContentLoaded", function () {
+  const /** {NodeElement} */ $expanderHeader = document.getElementById("expanderHeader");
+  const /** {NodeElement} */ $expandedContent = document.getElementById("expandedContent");
+
+  $expanderHeader.addEventListener("click", () => {
+    if ($expandedContent.style.display === "none" || !$expandedContent.style.display) {
+      $expandedContent.style.display = "block";
+    } else {
+      $expandedContent.style.display = "none";
+    }
+
+    $expanderHeader.classList.toggle("active");
+  });
+});
+
+
+
+
+
+/**
+ * Customer Review Right Column Dropdown Effect
+ */
+document.addEventListener("DOMContentLoaded", function () {
+  const /** {NodeElement} */ $expanderElement = document.getElementById("expanderElement");
+  const /** {NodeElement} */ $expandedText = document.getElementById("expandableText");
+  const /** {NodeElement} */ $expanderPrompt = document.getElementById("expanderPrompt");
+
+  $expanderElement.addEventListener("click", () => {
+    if ($expandedText.style.display === "none" || !$expandedText.style.display) {
+      $expandedText.style.display = "block";
+      $expanderPrompt.textContent = "Read Less";
+    } else {
+      $expandedText.style.display = "none";
+      $expanderPrompt.textContent = "Read More";
+    }
+
+    $expanderElement.classList.toggle("active");
   });
 });

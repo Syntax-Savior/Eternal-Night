@@ -842,13 +842,86 @@ select {
   object-position: center;
 }
 
+.section-products .mini-content-left .user-directions {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-left: 80px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* ========== Image Zoom Text ========== */
+.section-products .mini-content-left .image-canvas-caption {
+  display: block;
+  width: 100%;
+  height: 20px;
+  min-height: 1px;
+  text-align: center;
+}
+
+.section-products .mini-content-left .image-canvas-caption .image-zoom-effect-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--neutral-40);
+}
+
+/* ========== Products Users Links ========== */
+.section-products .mini-content-left .products-users-links {
+  display: block;
+  width: 100%;
+  max-height: max-content;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-products .mini-content-left .products-users-links .unordered-items-list {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.section-products .mini-content-left .products-users-links .unordered-items-list .virtual-showroom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 40px;
+  border: 1px solid rgb(0, 102, 192);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.section-products .mini-content-left .products-users-links .unordered-items-list .virtual-showroom-button .list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-products .mini-content-left .products-users-links .unordered-items-list .virtual-showroom-button .list-item .vir-environment {
+  max-width: max-content;
+  max-height: max-content;
+  color: #0066C0;
+}
+
+.section-products .mini-content-left .products-users-links .unordered-items-list .virtual-showroom-button .list-item .text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0066C0;
+  line-height: 19px;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
 /* ========== Tabled Details ========== */
 .section-products .mini-content-left .image-table-divider {
   display: block;
   width: 100%;
   height: 1px;
   color: var(--neutral-30);
-  margin-top: 120px;
+  margin-top: 21px;
   margin-bottom: 16px;
 }
 
@@ -1779,6 +1852,1145 @@ select {
 
 /* ========================================== *\
   # Product Description Page Styling End.
+\* ========================================== */
+
+/* ========================================== *\
+  # Product Insight Styling Start.
+\* ========================================== */
+.section-products .product-insight {
+  display: block;
+  width: 1464px;
+  height: 150px;
+  margin: 0 67.665px 20px 67.665px;
+}
+
+.section-products .product-insight .insight-container {
+  display: block;
+  width: 100%;
+  height: 140px;
+  padding: 16px 0;
+}
+
+.section-products .product-insight .insight-title {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--neutral-5);
+  line-height: 24px;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.section-products .product-insight .sp-row {
+  display: block;
+  width: 100%;
+  height: 70px;
+}
+
+.section-products .product-insight .sp-column {
+  display: block;
+  width: 467.708px;
+  height: 100%;
+  float: left;
+  text-align: left;
+  margin-right: 29.2708px;
+}
+
+.section-products .product-insight .sp-column.last-column {
+  margin: 0;
+}
+
+.section-products .product-insight .column-background {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: var(--neutral-90);
+  border-radius: 8px;
+}
+
+.section-products .product-insight .inner-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 14px 18px;
+}
+
+.section-products .product-insight .inner-box .sp-inner-row {
+  display: block;
+  width: 100%;
+  height: 20px;
+}
+
+.section-products .product-insight .inner-box .sp-inner-row .sp-text-bold {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--neutral-5);
+}
+
+.section-products .product-insight .inner-box .sp-inner-row .sp-text-regular {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--neutral-5);
+}
+/* ========================================== *\
+  # Product Insight Styling End.
+\* ========================================== */
+
+/* ========================================== *\
+  # Product Videos Styling Start.
+\* ========================================== */
+.section-products .related-videos {
+  display: block;
+  width: 1464px;
+  height: auto;
+  margin: 0 67.665px 20px 67.665px;
+}
+
+.section-products .related-videos .videos-wrapper {
+  display: block;
+  width: 100%;
+  height: auto; /* 425px */
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin: 20px 0;
+}
+
+.section-products .related-videos .videos-wrapper .container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto; /* 390px */
+  padding-bottom: 5px;
+}
+
+.section-products .related-videos .videos-wrapper .container .videos {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto; /* 320px */
+  margin-bottom: 22px;
+  overflow: hidden;
+}
+
+.section-products .related-videos .videos-header {
+  display: block;
+  width: 100%;
+  height: 32px;
+  margin-bottom: 10px;
+}
+
+.section-products .related-videos .videos-header .text-left {
+  display: block;
+  width: 965px;
+  float: left;
+  margin-right: 29px;
+}
+
+.section-products .related-videos .videos-header .text-left .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--neutral-5);
+}
+
+.section-products .related-videos .videos-header .text-right {
+  display: block;
+  width: 470px;
+  float: right;
+  text-align: right;
+}
+
+.section-products .related-videos .videos-header .text-right .page-number {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--neutral-30);
+}
+
+.section-products .related-videos .video-row {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 276px;
+}
+
+.section-products .related-videos .video-slide-left {
+  position: absolute;
+  display: block;
+  width: 42px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 5px;
+  z-index: 20;
+}
+
+.section-products .related-videos .video-slide-left .left {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 38px;
+  top: 110px;
+  text-align: center;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 0.7px solid var(--neutral-40);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.section-products .related-videos .video-slide-left .left .left-arrow {
+  font-size: 24px;
+  text-align: center;
+  padding: 6px;
+  overflow: hidden;
+}
+
+.section-products .related-videos .video-content {
+  position: relative;
+  display: block;
+  width: 1380px;
+  height: 100%;
+  margin: 0 42px;
+  overflow: hidden;
+}
+
+.section-products .related-videos .video-content .video-list {
+  position: relative;
+  display: block;
+  width: 3040px;
+  height: 100%;
+  overflow-x: visible;
+}
+
+.section-products .related-videos .video-content .video-list .video {
+  display: inline-block;
+  width: 292px;
+  height: 100%;
+  margin-left: 12px;
+  overflow: hidden;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 41px;
+  overflow: hidden;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link {
+  display: inline-block;
+  width: 100%;
+  height: 235px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-thumbnail {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 165px;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-thumbnail .play-button {
+  position: absolute;
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 59px 122px;
+  z-index: 5;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-thumbnail .thumbnail {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-thumbnail .video-duration {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+  padding: 4px 6px 3px 6px;
+  z-index: 5;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 70px;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: rgba(18, 18, 18, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description .background-image {
+  width: 100%;
+  height: 100%;
+  filter: blur(10px);
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description .description-content {
+  position: absolute;
+  display: block;
+  width: 292px;
+  height: 70px;
+  text-align: left;
+  bottom: 0;
+  right: 0;
+  padding: 6px 12px 10px 12px;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description .description-content .user-picture {
+  display: inline;
+  width: auto;
+  height: auto;
+  margin-bottom: 22px;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description .description-content .user-picture .profile-thumbnail {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  vertical-align: top;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description .description-content .user-picture .profile-thumbnail .avatar {
+  width: 35px;
+  height: 35px;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description .description-content .details {
+  display: inline-block;
+  width: 205px;
+  height: 54px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description .description-content .details .video-title {
+  position: relative;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  text-align: left;
+  text-overflow: clip;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description .description-content .details .video-title .title {
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.section-products .related-videos .video-content .video-list .video .video-item .video-link .video-description .description-content .details .seller {
+  display: block;
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--white);
+  text-overflow: ellipsis;
+  padding-top: 2px;
+}
+
+.section-products .related-videos .video-slide-right {
+  position: absolute;
+  display: block;
+  width: 42px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding-right: 5px;
+  z-index: 5;
+}
+
+.section-products .related-videos .video-slide-right .right {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 38px;
+  top: 110px;
+  text-align: center;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 0.7px solid var(--neutral-40);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.section-products .related-videos .video-slide-right .right .right-arrow {
+  font-size: 24px;
+  text-align: center;
+  padding: 6px;
+  overflow: hidden;
+}
+
+/* ========== Button ========== */
+.section-products .related-videos .upload-your-video {
+  display: inline-block;
+  width: 140px;
+  height: 32px;
+  text-align: center;
+  cursor: pointer;
+  border: 0.7px solid var(--neutral-40);
+  border-radius: 20px;
+  margin-top: 12px;
+}
+
+.section-products .related-videos .upload-your-video .video-upload-button {
+  display: block;
+  width: auto; /* 130px */
+  height: 29px;
+  line-height: 29px;
+  font-size: 13px;
+  text-align: center;
+  color: var(--neutral-5);
+  padding: 0 10px;
+}
+/* ========================================== *\
+  # Product Videos Styling End.
+\* ========================================== */
+
+/* ========================================== *\
+  # Large Image Bucket Styling Start.
+\* ========================================== */
+.section-products .large-image-bucket {
+  display: block;
+  width: 1464px;
+  height: auto;
+  margin: 0 67.665px 24px 67.665px;
+}
+
+.section-products .large-image-bucket .bucket-image-titles {
+  display: block;
+  width: 100%;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--neutral-20);
+  padding-bottom: 4px;
+}
+
+.section-products .large-image-bucket .manufacturers-video {
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+
+.section-products .large-image-bucket .manufacturers-video .video-thumbnail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: contain;
+}
+
+.section-products .large-image-bucket .manufacturers-video .big-play-button {
+  position: relative;
+  display: block;
+  width: 70px;
+  height: 70px;
+  top: -325px; /* 300px */
+  left: 685px; /* 732px */
+  cursor: pointer;
+  z-index: 5px;
+}
+
+.section-products .large-image-bucket .manufacturers-video .big-play-button .play {
+  font-size: 100px;
+  color: var(--white);
+  line-height: 66.5px;
+}
+
+.section-products .large-image-bucket .manufacturer-image {
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+
+.section-products .large-image-bucket .manufacturer-image .image {
+  width: 100%;
+  height: 600px;
+  object-position: center;
+  object-fit: contain;
+}
+
+.section-products .large-image-bucket .manufacturer-image.slider {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+
+.section-products .large-image-bucket .manufacturer-image.slider .m-image-carousel-left {
+  position: absolute;
+  display: block;
+  width: 84px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 5px;
+  z-index: 10;
+}
+
+.section-products .large-image-bucket .manufacturer-image.slider .m-image-carousel-left .left {
+  position: absolute;
+  display: block;
+  top: 280px;
+  left: 42px;
+  font-size: 50px;
+  font-weight: 0;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.section-products .large-image-bucket .manufacturer-image.slider .sliding-image-content {
+  display: block;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.section-products .large-image-bucket .manufacturer-image.slider .m-image-carousel-right {
+  position: absolute;
+  display: block;
+  width: 84px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding-right: 5px;
+  z-index: 10;
+}
+
+.section-products .large-image-bucket .manufacturer-image.slider .m-image-carousel-right .right {
+  position: absolute;
+  display: block;
+  top: 280px;
+  right: 42px;
+  font-size: 50px;
+  font-weight: 0;
+  color: var(--white);
+  cursor: pointer;
+}
+/* ========================================== *\
+  # Large Image Bucket Styling End.
+\* ========================================== */
+
+/* ========================================== *\
+  # Customer Product Reviews Styling Start.
+\* ========================================== */
+.section-products .customer-product-reviews {
+  display: block;
+  width: 1464px;
+  height: auto;
+  margin: 0 67.665px 32px 67.665px;
+}
+
+.section-products .customer-product-reviews .col-left {
+  display: block;
+  width: 310px;
+  height: auto;
+  float: left;
+}
+
+.section-products .customer-product-reviews .col-left .left-col-divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  color: var(--neutral-30);
+  margin: 16px 0;
+}
+
+.section-products .customer-product-reviews .col-left .left-col-last-divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  color: var(--neutral-30);
+  margin: 32px 0;
+}
+
+.section-products .customer-product-reviews .col-left .col-left-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section-products .customer-product-reviews .left-column-title {
+  display: block;
+  width: 100%;
+}
+
+.section-products .customer-product-reviews .left-column-title h2 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--neutral-20);
+}
+
+.section-products .customer-product-reviews .reviewer-box {
+  display: block;
+  width: 100%;
+  height: 25px;
+  margin-bottom: 8px;
+}
+
+.section-products .customer-product-reviews .reviewer-box .the-stars {
+  display: block;
+  width: 140px;
+  height: 25px;
+  font-size: 0;
+  float: left;
+}
+
+.section-products .customer-product-reviews .reviewer-box .the-stars .material-symbols-rounded {
+  max-width: max-content;
+  font-size: 26px;
+  font-weight: 100;
+  font-variation-settings: 'FILL' 1;
+  color: var(--primary-100);
+}
+
+.section-products .customer-product-reviews .reviewer-box .average-star-rating-numerical {
+  display: block;
+  width: 155px;
+  height: 24px;
+  float: left;
+  padding-top: 2px;
+}
+
+.section-products .customer-product-reviews .reviewer-box .average-star-rating-numerical .rating-out-of-text {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--neutral-5);
+}
+
+.section-products .customer-product-reviews .global-info {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 16px;
+}
+
+.section-products .customer-product-reviews .global-info .total-review-count {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--neutral-30);
+}
+
+.section-products .customer-product-reviews .star-percentages {
+  display: block;
+  width: 100%;
+  height: 156px;
+}
+
+.section-products .customer-product-reviews .star-percentages .inner-container {
+  display: block;
+  width: 310px;
+  height: 100%;
+  float: left;
+  padding-right: 20px;
+}
+
+.section-products .customer-product-reviews .star-percentages .histogram-table {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  column-gap: 14px;
+  row-gap: 14px;
+}
+
+.section-products .customer-product-reviews .star-percentages .histogram-table .sp-align-center {
+  display: list-item;
+  width: 100%;
+  height: 20px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.section-products .customer-product-reviews .star-percentages .histogram-table .sp-align-center .ratings-histogram {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  column-gap: 12px;
+  row-gap: 12px;
+}
+
+.section-products .customer-product-reviews .star-percentages .sp-section {
+  display: block;
+  width: auto;
+  height: 20px;
+}
+
+.section-products .customer-product-reviews .star-percentages .sp-section .sp-base {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--primary-100);
+  vertical-align: text-top;
+}
+
+.section-products .customer-product-reviews .star-percentages .sp-align-center .ratings-histogram:hover .sp-base {
+  text-decoration: underline;
+}
+
+.section-products .customer-product-reviews .star-percentages .sp-align-center .ratings-histogram .histogram {
+  display: block;
+  width: 195px;
+  height: 100%;
+}
+
+.section-products .customer-product-reviews .star-percentages .sp-align-center .ratings-histogram .histogram .progressbar {
+  display: block;
+  width: 100%;
+  height: 20px;
+  border: 1px solid var(--neutral-50);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.section-products .customer-product-reviews .star-percentages .sp-align-center .ratings-histogram .histogram .progressbar .meter-filled {
+  display: block;
+  height: 100%;
+  background-color: var(--primary-100);
+  float: left;
+}
+
+.section-products .customer-product-reviews .customer-review-info {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container .expander-header {
+  display: flex;
+  width: 100%;
+  height: 24px;
+  cursor: pointer;
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container .expander-header .dropdown {
+  display: block;
+  font-size: 24px;
+  color: var(--primary-100);
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container .expander-header.active .dropdown {
+  transform: rotate(180deg);
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container .expander-header .expander-prompt {
+  display: block;
+  height: 24px;
+  font-size: 14px;
+  color: var(--primary-100);
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container .expander-header .expander-prompt:hover {
+  text-decoration: underline;
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container .expanded-content {
+  display: none;
+  margin-top: 4px;
+  padding-left: 15px;
+  overflow: hidden;
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container .expanded-content .top-paragraph {
+  display: block;
+  font-size: 14px;
+  color: var(--neutral-5);
+  line-height: 20px;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container .expanded-content .bottom-paragraph {
+  display: block;
+  font-size: 14px;
+  color: var(--neutral-5);
+  line-height: 20px;
+  margin-bottom: 14px;
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container .expanded-content .more-about-reviews {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--primary-100);
+}
+
+.section-products .customer-product-reviews .customer-review-info .expander-container .expanded-content .more-about-reviews:hover {
+  text-decoration: underline;
+}
+
+.section-products .customer-product-reviews .col-left .col-left-bottom {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+.section-products .customer-product-reviews .col-left .col-left-bottom .cr-product-title {
+  display: block;
+  width: 100%;
+  height: 28px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+}
+
+.section-products .customer-product-reviews .col-left .col-left-bottom .cr-review-encouragement {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 16px;
+}
+
+.section-products .customer-product-reviews .col-left .col-left-bottom .cr-review-encouragement span {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--neutral-20);
+}
+
+.section-products .customer-product-reviews .col-left .col-left-bottom .leave-review-button {
+  display: block;
+  width: 100%;
+  height: 32px;
+  border: 1px solid var(--neutral-40);
+  border-radius: 50px;
+  transition: 0.2s ease;
+}
+
+.section-products .customer-product-reviews .col-left .col-left-bottom .leave-review-button:hover {
+  background-color: var(--neutral-95);
+}
+
+.section-products .customer-product-reviews .col-left .col-left-bottom .leave-review-button .lr-button-link {
+  display: block;
+  width: 295px;
+  height: 100%;
+  font-size: 13px;
+  line-height: 29px;
+  text-align: center;
+  color: var(--neutral-5);
+  padding: 0 12px;
+}
+
+/* ========== Customer Review Right Side ========== */
+.section-products .customer-product-reviews .col-right {
+  display: block;
+  width: 1154px;
+  height: auto;
+  float: left;
+  padding-left: 30px;
+}
+
+.section-products .customer-product-reviews .col-right .verified-reviews {
+  display: block;
+  width: 1124px;
+  height: auto;
+}
+
+.section-products .customer-product-reviews .col-right .verified-reviews .ref-separator {
+  display: block;
+  max-width: 120px;
+  min-height: 1px;
+  width: 110px;
+  height: 1px;
+  float: left;
+}
+
+.section-products .customer-product-reviews .col-right .verified-reviews .fixed-center-right {
+  display: block;
+  max-width: 680px;
+  width: 680px;
+  height: auto;
+  float: left;
+}
+
+.section-products .customer-product-reviews .col-right .verified-reviews .fixed-center-right .cr-local-reviews {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.section-products .customer-product-reviews .col-right .local-reviews-title {
+  display: block;
+  width: 100%;
+  height: 24px;
+  margin-bottom: 22px;
+}
+
+.section-products .customer-product-reviews .col-right .local-reviews-title .top-large {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.section-products .customer-product-reviews .col-right .cr-rows {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section-products .customer-product-reviews .col-right .cr-rows .sp-section-review {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 22px;
+}
+
+.section-products .customer-product-reviews .col-right .reviewer-name-logo {
+  display: block;
+  width: 100%;
+  height: 34px;
+  margin-bottom: 4px;
+}
+
+.section-products .customer-product-reviews .col-right .sp-profile {
+  display: flex;
+  align-items: center;
+  max-width: max-content;
+  width: auto;
+  height: 34px;
+}
+
+.section-products .customer-product-reviews .col-right .sp-profile-avatar-wrapper {
+  display: block;
+  width: 43px;
+  height: 34px;
+  padding-right: 9px;
+}
+
+.section-products .customer-product-reviews .col-right .sp-profile-avatar {
+  display: block;
+  width: 34px;
+  height: 34px;
+}
+
+.section-products .customer-product-reviews .col-right .default-profile-avatar {
+  display: inline;
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.section-products .customer-product-reviews .col-right .sp-profile-content {
+  display: block;
+  max-width: max-content;
+  max-height: max-content;
+  width: auto;
+  height: auto;
+}
+
+.section-products .customer-product-reviews .col-right .sp-profile-content .profile-name {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--neutral-5);
+  align-items: center;
+}
+
+.section-products .customer-product-reviews .col-right .review-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 20px;
+}
+
+.section-products .customer-product-reviews .col-right .review-title .the-stars {
+  display: block;
+  width: 120px;
+  height: 25px;
+  font-size: 0;
+  margin-right: 10px;
+}
+
+.section-products .customer-product-reviews .col-right .review-title .the-stars .star {
+  font-size: 24px;
+  font-weight: 400;
+  font-variation-settings: 'FILL' 1;
+  color: var(--primary-100);
+}
+
+.section-products .customer-product-reviews .col-right .review-title .the-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--neutral-5);
+}
+
+.section-products .customer-product-reviews .col-right .review-location-date {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--neutral-40);
+}
+
+.section-products .customer-product-reviews .col-right .product-specs-sp-badge {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 4px;
+}
+
+.section-products .customer-product-reviews .col-right .product-specs {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color: var(--neutral-40);
+}
+
+.section-products .customer-product-reviews .col-right .product-specs-sp-badge .icon-text-separator {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--neutral-40);
+  margin: 0 10px;
+}
+
+.section-products .customer-product-reviews .col-right .badge-bold {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--primary-100);
+}
+
+.section-products .customer-product-reviews .col-right .badge-bold:hover {
+  text-decoration: underline;
+}
+
+.section-products .customer-product-reviews .col-right .review {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.section-products .customer-product-reviews .col-right .review span {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--neutral-5);
+}
+
+.section-products .customer-product-reviews .col-right .review .expander-element {
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  height: 30px;
+  border: 1px solid var(--primary-100);
+  border-radius: 50px;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.section-products .customer-product-reviews .col-right .review .expander-element.active {
+  order: 2;
+}
+
+.section-products .customer-product-reviews .col-right .review .expander-element:hover {
+  background-color: var(--primary-100);
+}
+
+.section-products .customer-product-reviews .col-right .review .expander-element .dropdown {
+  display: block;
+  font-size: 24px;
+  color: var(--primary-100);
+  left: 0;
+  transition: transform 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.section-products .customer-product-reviews .col-right .review .expander-element.active .dropdown {
+  transform: rotate(180deg);
+}
+
+.section-products .customer-product-reviews .col-right .review .expander-element .expander-prompt {
+  display: block;
+  height: 24px;
+  font-size: 14px;
+  color: var(--primary-100);
+  transition: 0.3s ease;
+}
+
+.section-products .customer-product-reviews .col-right .review .expander-element:hover .dropdown,
+.section-products .customer-product-reviews .col-right .review .expander-element:hover .expander-prompt {
+  color: var(--white);
+}
+
+.section-products .customer-product-reviews .col-right .review .expandable-text {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.section-products .customer-product-reviews .col-right .review .expandable-text.active {
+  order: 1;
+}
+
+.section-products .customer-product-reviews .col-right .query-more-reviews {
+  display: block;
+  width: 100%;
+  height: 33px;
+}
+
+.section-products .customer-product-reviews .col-right .query-more-reviews .see-more-link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--primary-100);
+}
+
+.section-products .customer-product-reviews .col-right .query-more-reviews:hover .see-more-link {
+  text-decoration: underline;
+}
+
+.section-products .customer-product-reviews .col-right .verified-reviews .fixed-center-right .cr-global-reviews {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+/* ========================================== *\
+  # Customer Product Reviews Styling End.
 \* ========================================== */
 
 /* ========================================== *\
