@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Business-Services.png"
     },
     {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Certifying-Parties.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Certifying-Parties.png"
+    },
+    {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Choice.png",
       "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Choice.png"
     },
@@ -95,6 +99,10 @@
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Consumer-Electronics.png",
       "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Consumer-Electronics.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Default-Profile-Avatar.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Default-Profile-Avatar.png"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Discount-Arrow.png",
@@ -111,6 +119,22 @@
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Furniture.png",
       "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Furniture.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Giant-Cart-Icon.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Giant-Cart-Icon.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Gift-Season.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Gift-Season.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Green-Background-Banner.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Green-Background-Banner.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Green-Checkmark-Protected.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Green-Checkmark-Protected.png"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Home&Garden.png",
@@ -133,6 +157,10 @@
       "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Mother-Kids&Toys.png"
     },
     {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\No-Fill-Protected.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\No-Fill-Protected.png"
+    },
+    {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Packaging&Printing.png",
       "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Packaging&Printing.png"
     },
@@ -147,6 +175,10 @@
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Protected.png",
       "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Protected.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Red-Background-Banner.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Red-Background-Banner.png"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Red-Linear-Gradient-Background.png",
@@ -189,16 +221,72 @@
       "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Vehicle-Parts&Accessories.png"
     },
     {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Video-Play-Icon.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Video-Play-Icon.png"
+    },
+    {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\Welcome-Deal.png",
       "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\Welcome-Deal.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Icons\\White-Thunder-Bolt.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Icons\\White-Thunder-Bolt.png"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Login-Banner.jpg",
       "PackagePath": "staticwebassets\\Assets\\Images\\Login-Banner.jpg"
     },
     {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Manufacturer-Image-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Manufacturer-Image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Manufacturer-Image-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Manufacturer-Image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Manufacturer-Image-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Manufacturer-Image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Manufacturer-Image-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Manufacturer-Image-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Manufacturer-Image-5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Manufacturer-Image-5.jpg"
+    },
+    {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Nike Womens Gym Wear.png",
       "PackagePath": "staticwebassets\\Assets\\Images\\Nike Womens Gym Wear.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Payment-Methods-Logo\\Binance.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Payment-Methods-Logo\\Binance.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Payment-Methods-Logo\\CBE.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Payment-Methods-Logo\\CBE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Payment-Methods-Logo\\Chapa.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Payment-Methods-Logo\\Chapa.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Payment-Methods-Logo\\Mpesa.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Payment-Methods-Logo\\Mpesa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Payment-Methods-Logo\\OKX-Logo.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Payment-Methods-Logo\\OKX-Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Payment-Methods-Logo\\Telebirr.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Payment-Methods-Logo\\Telebirr.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Payment-Methods-Logo\\Telegram-Wallet.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Payment-Methods-Logo\\Telegram-Wallet.jpg"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Philips All-in-One Trimmer 7000 Series original.png",
@@ -247,6 +335,10 @@
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Products\\Fashion-Cross-Strap-Fluffy-Slippers-Women.png",
       "PackagePath": "staticwebassets\\Assets\\Images\\Products\\Fashion-Cross-Strap-Fluffy-Slippers-Women.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Products\\Gaming-Mouse.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Products\\Gaming-Mouse.jpg"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Products\\Giant-Bean-Bag.jpg",
@@ -385,6 +477,18 @@
       "PackagePath": "staticwebassets\\Assets\\Images\\Top-Ranking-Manufacturers.png"
     },
     {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Video-Thumbnails\\Manufacturers-Video-Thumbnail.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Video-Thumbnails\\Manufacturers-Video-Thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Video-Thumbnails\\Video-Description-Background.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Video-Thumbnails\\Video-Description-Background.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\Video-Thumbnails\\thumbnail-1.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Video-Thumbnails\\thumbnail-1.png"
+    },
+    {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\avatar-1.jpg",
       "PackagePath": "staticwebassets\\Assets\\Images\\avatar-1.jpg"
     },
@@ -411,6 +515,10 @@
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\avatar-7.jpg",
       "PackagePath": "staticwebassets\\Assets\\Images\\avatar-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\avatar-8.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\avatar-8.png"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\Assets\\Images\\nike-zoom-pegasus-turbo-5 original.png",
@@ -441,24 +549,68 @@
       "PackagePath": "staticwebassets\\Assets\\Videos\\Philips.mp4"
     },
     {
-      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\main.css",
-      "PackagePath": "staticwebassets\\css\\main.css"
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\footers\\primary-footer.css",
+      "PackagePath": "staticwebassets\\css\\footers\\primary-footer.css"
     },
     {
-      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\product-description-page.css",
-      "PackagePath": "staticwebassets\\css\\product-description-page.css"
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\footers\\secondary-footer.css",
+      "PackagePath": "staticwebassets\\css\\footers\\secondary-footer.css"
     },
     {
-      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\main.js",
-      "PackagePath": "staticwebassets\\js\\main.js"
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\headers\\primary-header.css",
+      "PackagePath": "staticwebassets\\css\\headers\\primary-header.css"
     },
     {
-      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\modal.js",
-      "PackagePath": "staticwebassets\\js\\modal.js"
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\headers\\secondary-header.css",
+      "PackagePath": "staticwebassets\\css\\headers\\secondary-header.css"
     },
     {
-      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\product-description-page.js",
-      "PackagePath": "staticwebassets\\js\\product-description-page.js"
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\cart-empty.css",
+      "PackagePath": "staticwebassets\\css\\pages\\cart-empty.css"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\cart.css",
+      "PackagePath": "staticwebassets\\css\\pages\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\main.css",
+      "PackagePath": "staticwebassets\\css\\pages\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\product-description-page.css",
+      "PackagePath": "staticwebassets\\css\\pages\\product-description-page.css"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\fetch-products\\fetchProducts.js",
+      "PackagePath": "staticwebassets\\js\\fetch-products\\fetchProducts.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\footers\\primary-footer.js",
+      "PackagePath": "staticwebassets\\js\\footers\\primary-footer.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\footers\\secondary-footer.js",
+      "PackagePath": "staticwebassets\\js\\footers\\secondary-footer.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\headers\\primary-header.js",
+      "PackagePath": "staticwebassets\\js\\headers\\primary-header.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\headers\\secondary-header.js",
+      "PackagePath": "staticwebassets\\js\\headers\\secondary-header.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\modals\\home-page-preview-modal.js",
+      "PackagePath": "staticwebassets\\js\\modals\\home-page-preview-modal.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\main.js",
+      "PackagePath": "staticwebassets\\js\\pages\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\product-description-page.js",
+      "PackagePath": "staticwebassets\\js\\pages\\product-description-page.js"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\lib\\bootstrap\\LICENSE",

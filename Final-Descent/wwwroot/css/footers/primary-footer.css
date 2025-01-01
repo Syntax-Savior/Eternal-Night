@@ -1,0 +1,530 @@
+
+/* ========================================== *\
+  # CSS Variables Section Start.
+\* ========================================== */
+:root {
+  --header-height: 10rem;
+
+  /* ========== Colors One ========== */
+  --white: #FFFFFF;
+  --yellow: #F6BD26;
+  --primary-100: #2179FF;
+  --primary-90: #1E6DE5;
+  --primary-80: #1B61CC;
+  --primary-70: #1755B2;
+  --primary-40: #0D3166;
+  --primary-20: #071833;
+  --secondary-100: #21FFFF;
+  --secondary-20: #073333;
+  --neutral-100: #FAFCFF;
+  --neutral-98: #F2F5FA;
+  --neutral-95: #E9ECF2;
+  --neutral-90: #DADFE5;
+  --neutral-80: #C2C6CC;
+  --neutral-60: #919499;
+  --neutral-50: #797C80;
+  --neutral-40: #616366;
+  --neutral-30: #494A4D;
+  --neutral-20: #303133;
+  --neutral-10: #18191A;
+  --neutral-5: #0C0C0D;
+  --error-100: #FF2134;
+
+  /* ========== Colors Two ========== */
+  /* HSL(hue, saturation, lightness) */
+  --first-color: hsl(228, 66%, 53%);
+  --first-color-alt: hsl(228, 66%, 47%);
+  --first-color-light: hsl(228, 62%, 59%);
+  --first-color-lighten: hsl(228, 100%, 97%);
+  --second-color: hsl(25, 83%, 53%);
+  --title-color: hsl(228, 57%, 28%);
+  --text-color: hsl(228, 15%, 50%);
+  --text-color-light: hsl(228, 12%, 75%);
+  --border-color: hsl(228, 99%, 98%);
+  --body-color: #FFF;
+  --container-color: #FFF;
+
+  /* Gradient */
+  --gradient: linear-gradient(270deg, #0F4392 0%, #001D3D 100%);
+
+  /* ========== Font and typography ========== */
+  /* Font Family */
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+
+  /* Font Size */
+  --fs-base: 62.5%;
+  --fs-headline-large: 3.6rem;
+  --fs-headline-medium: 2.8rem;
+  --fs-headline-small: 2.8rem;
+  --fs-title-large: 2.2rem;
+  --fs-title-medium: 2rem;
+  --fs-title-small: 1.8rem;
+  --fs-body-large: 1.6rem;
+  --fs-body-medium: 1.6rem;
+  --fs-label-large: 1.6rem;
+  --fs-label-medium: 1.4rem;
+
+  /* Font Weight */
+  --weight-bold: 700;
+  --weight-semiBold: 600;
+  --weight-regular: 400;
+
+  /* ========== Letter Spacing ========== */
+  --tracking-n-025: -0.25px;
+  --tracking-p-05: 0.5px;
+
+  /* ========== z-index ========== */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  /* ========== Line Height ========== */
+  --lh-headline-large: 44px;
+  --lh-headline-medium: 36px;
+  --lh-headline-small: 36px;
+  --lh-title-large: 28px;
+  --lh-title-medium: 24px;
+  --lh-title-small: 24px;
+  --lh-body-large: 24px;
+  --lh-body-medium: 24px;
+  --lh-label-large: 24px;
+  --lh-label-medium: 20px;
+
+  /* ========== Radius ========== */
+  --radius-small: 8px;
+  --radius-medium: 12px;
+  --radius-large: 16px;
+  --radius-extra-large: 32px;
+  --radius-full: 1000px;
+  --radius-circle: 50%;
+
+  /* ========== Shadow ========== */
+  --shadow-1: 0px 2px 4px 0px #00000033;
+  --shadow-2: 0px 5px 10px 0px #0000000D;
+  --shadow-3: 0px 5px 10px 0px #00000033;
+  --shadow-4: 0px 10px 20px 0px #0000001A;
+
+  /* ========== Transition ========== */
+  --transition-easing-quick: cubic-bezier(0, 0.7, 0.3, 1);
+  --transition-duration-quick: 200ms;
+  --transition-duration-smooth: 500ms;
+}
+/* ========================================== *\
+  # CSS Variables Section End.
+\* ========================================== */
+
+/* ========================================== *\
+  # Base Styling Start.
+\* ========================================== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-primary);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--neutral-98);
+  color: var(--neutral-5);
+  line-height: var(--lh-body-medium);
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+input, button, select {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, select {
+  width: 100%;
+  outline: none;
+}
+
+address {
+  font-style: normal;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--neutral-90);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--neutral-60);
+  border-radius: 4px;
+}
+/* ========================================== *\
+  # Base Styling End.
+\* ========================================== */
+
+/* ========================================== *\
+  # Typography Styling Start.
+\* ========================================== */
+
+
+
+/* ========================================== *\
+  # Typography Styling End.
+\* ========================================== */
+
+/* ========================================== *\
+  #  Reused Styles Start.
+\* ========================================== */
+
+
+
+/* ========================================== *\
+  #  Reused Styles End.
+\* ========================================== */
+
+/* ========================================== *\
+  # Component Styling Start.
+\* ========================================== */
+
+
+
+/* ========================================== *\
+  # Component Styling End.
+\* ========================================== */
+
+/* ========================================== *\
+  # Footer Styling Start.
+\* ========================================== */
+.footer {
+  width: 100%;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  color: #fff;
+  padding: 30px 0;
+  border-top-left-radius: 125px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.footer-top .container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-top .container .footer-brand {
+  flex-basis: 25%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-top .container .footer-text {
+  margin-top: 30px;
+}
+
+.footer-top .container .footer-nav {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.footer-top .container .footer-nav:nth-child(2),
+.footer-top .container .footer-nav:nth-child(3) {
+  flex-basis: 15%;
+}
+
+.footer-top .container .footer-nav .footer-list-title {
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.footer-top .container .footer-nav .footer-list li {
+  margin-bottom: 12px;
+}
+
+.footer-top .container .footer-nav .footer-list li a,
+.footer-top .container .footer-nav .address-list li a {
+  font-weight: 300;
+  color: #bbb;
+  transition: all 0.2s ease;
+}
+
+.footer-top .container .footer-nav .footer-list li a:hover,
+.footer-top .container .footer-nav .address-list li a:hover {
+  font-weight: 600;
+  color: #fff;
+  padding-left: 5px;
+}
+
+.footer-top .container .footer-nav form {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 25px;
+}
+
+.footer-top .container .footer-nav form .footer-en {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.footer-top .container .footer-nav form input {
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+
+.footer-top .container .footer-nav form button {
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+
+.footer-top .container .footer-nav form button .fa-arrow-right {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.footer-top .container .footer-nav .address-list {
+  margin-bottom: 25px;
+}
+
+.footer-top .container .footer-nav .social-list .footer-socials {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-right: 15px;
+  transition: all 0.5s ease;
+}
+
+.footer-top .container .footer-nav .social-list .footer-socials:hover {
+  color: #24262b;
+  background-color: #fff;
+}
+
+.footer-top .container .footer-nav .underline {
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+
+.footer-top .container .footer-nav .underline span {
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 4s linear infinite;
+}
+
+/* ========== Middle Footer ========== */
+.footer .footer-middle {
+  display: block;
+  margin: 10px 345px;
+}
+
+.footer .footer-middle .footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer .footer-middle .footer-nav .icp-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+  font-size: 13px;
+  text-align: center;
+  line-height: 18px;
+  width: auto;
+  height: 33px;
+  padding: 6px 18px 6px 8px;
+  margin-right: 4px;
+  border: 1px solid var(--white);
+  border-radius: 3px;
+}
+
+.footer .footer-middle .footer-nav .icp-button .icp-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.footer .footer-middle .footer-nav .icp-button .dropdown-icon {
+  margin-left: 8px;
+  font-size: 10px;
+}
+
+/* ========== Bottom Footer ========== */
+.footer .footer-bottom .container {
+  width: 85%;
+  margin-left: 200px;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-bottom .container .footer-nav {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.footer-bottom .container .footer-nav:nth-child(2),
+.footer-bottom .container .footer-nav:nth-child(3) {
+  flex-basis: 25%;
+}
+
+.footer-bottom .container .footer-nav .footer-list-title {
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.footer-bottom .container .footer-nav .footer-list li {
+  margin-bottom: 12px;
+}
+
+.footer-bottom .container .footer-nav .footer-list li a,
+.footer-bottom .container .footer-nav .address-list li a {
+  font-weight: 300;
+  color: #bbb;
+  transition: all 0.2s ease;
+}
+
+.footer-bottom .container .footer-nav .footer-list li a:hover,
+.footer-bottom .container .footer-nav .address-list li a:hover {
+  font-weight: 600;
+  color: #fff;
+  padding-left: 5px;
+}
+
+.footer-bottom .container .footer-nav .underline {
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+
+.footer-bottom .container .footer-nav .underline span {
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 4s linear infinite;
+}
+
+.footer .footer-bottom .links {
+  max-width: 100%;
+  width: 50%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer .footer-bottom .links ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  gap: 15px;
+}
+
+.footer .footer-bottom .links ul img {
+  vertical-align: middle;
+  width: 29px;
+  height: 14px;
+}
+
+.footer .footer-bottom .links ul li {
+  display: block;
+  text-align: center;
+}
+
+.footer .footer-bottom .links ul li:hover {
+  text-decoration: underline;
+}
+
+.footer .footer-bottom .copyright {
+  text-align: center;
+}
+
+@keyframes moving {
+  0% {
+    left: -20px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+/* ========================================== *\
+  # Footer Styling End.
+\* ========================================== */

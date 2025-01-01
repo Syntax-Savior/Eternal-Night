@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/alphardex/aqua.css@master/dist/aqua.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+    
+      <form id="loginForm" class="login-form" action="index.php?page=login" method="post">
+
+        <div class="page-detail">
+          <span class="detail">Login</span>
+        </div>
+          
+        <div class="input-group">
+          <div class="input-box">
+            <i class="fa-solid fa-user icon"></i>
+            <input class="user-input" type="email" name="email" placeholder="Email" autocomplete="off" required>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <div class="input-box">
+            <i class="fa-solid fa-unlock icon"></i>
+            <input class="user-input" type="password" name="password" placeholder="Password" autocomplete="off" required>
+          </div>
+        </div>
+
+        <div class="option-01">
+          <label class="remember-me"><input type="checkbox" name="">Remember me</label>
+          <a href="#">Forgot your Password?</a>
+        </div>
+
+        <button class="btn btn-primary btn-ghost" type="submit">Login</button>
+
+        <div class="option-02">
+          <p>Not Registered? <a href="signup.html">Create an Account</a></p>
+        </div>
+
+      </form>
+
+    </div>
+
+    <!-- <script src="Script/loginHandler.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script src="../JS/login.js"></script>
+  </body>
+</html>

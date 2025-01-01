@@ -1,7 +1,7 @@
+using Final_Descent.Configurations;
 using Final_Descent.Data;
-using Microsoft.AspNetCore.Identity;
+using Final_Descent.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
 
 namespace Final_Descent
 {
@@ -11,16 +11,32 @@ namespace Final_Descent
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Add environment variables to configuration
+            builder.Configuration.AddEnvironmentVariables();
+
+            // Register the Database Configuration Class
+            builder.Services.AddSingleton(sp =>
+            {
+                var configuration = sp.GetRequiredService<IConfiguration>();
+                return new DatabaseConfig(configuration);
+            });
+
+            // Register the Product Service
+            builder.Services.AddSingleton<ProductService>();
+
             // Add services to the container.
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
                                    throw new InvalidOperationException(
                                        "Connection string 'DefaultConnection' not found.");
-            builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
+
+            // Register the Registration Service
+            builder.Services.AddSingleton(new RegistrationService(connectionString));
+
+            builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
             
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
+            builder.Services.AddRazorPages();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -53,7 +69,7 @@ namespace Final_Descent
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Product}/{action=Index}/{id?}");
 
             app.MapRazorPages();
 

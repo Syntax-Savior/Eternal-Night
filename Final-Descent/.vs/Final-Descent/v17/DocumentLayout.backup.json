@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\data\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:data\\migrations\\00000000000000_createidentityschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\models\\finalizeregistrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:models\\finalizeregistrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\models\\verifyotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:models\\verifyotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|c:\\users\\simon\\onedrive\\desktop\\eternal night\\eternal-night\\final-descent\\models\\unverifieduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A318E56B-EBE9-4F57-9430-6B3F86D9250F}|Final-Descent.csproj|solutionrelative:models\\unverifieduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "00000000000000_CreateIdentitySchema.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T11:15:19.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "00000000000000_CreateIdentitySchema.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
-              "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FinalizeRegistrationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Models\\FinalizeRegistrationRequest.cs",
+              "RelativeDocumentMoniker": "Models\\FinalizeRegistrationRequest.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Models\\FinalizeRegistrationRequest.cs",
+              "RelativeToolTip": "Models\\FinalizeRegistrationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T11:15:17.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T10:50:05.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Header.cshtml",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Views\\Shared\\_Header.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Header.cshtml",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Views\\Shared\\_Header.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Header.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T10:49:43.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAywEoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T10:48:51.781Z",
+              "WhenOpened": "2025-01-01T12:21:17.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "VerifyOtpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Models\\VerifyOtpRequest.cs",
+              "RelativeDocumentMoniker": "Models\\VerifyOtpRequest.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Models\\VerifyOtpRequest.cs",
+              "RelativeToolTip": "Models\\VerifyOtpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T12:07:51.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrationController.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAADwv1cAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T10:14:12.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Services\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "Services\\RegistrationService.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Services\\RegistrationService.cs",
+              "RelativeToolTip": "Services\\RegistrationService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAQwF8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:17:51.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnverifiedUser.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Models\\UnverifiedUser.cs",
+              "RelativeDocumentMoniker": "Models\\UnverifiedUser.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Models\\UnverifiedUser.cs",
+              "RelativeToolTip": "Models\\UnverifiedUser.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T09:06:07.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:49:12.689Z",
+              "WhenOpened": "2024-12-30T04:06:45.829Z",
               "EditorCaption": ""
             }
           ]

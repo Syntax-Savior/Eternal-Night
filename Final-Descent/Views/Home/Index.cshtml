@@ -1,5 +1,8 @@
+@model List<dynamic>
+
 @{
-  Layout = "~/Views/Shared/_Layout.cshtml";
+  Layout = "~/Views/Shared/_MainLayout.cshtml";
+  ViewData["Title"] = "Home";
 }
 
 <main>
@@ -645,11 +648,135 @@
 
         <div class="products-list">
 
+          @if (Model == null || !Model.Any())
+          {
+            <p>MODEL IS NULL OR EMPTY. Separate statement to find out which.</p>
+          }
+          else
+          {
+            @foreach (var product in Model)
+            {
+              <div class="card">
+
+                <div class="card-banner">
+
+                  <a class="product" data-spm="product-1" href="/Product/ProductDescriptionPage/@product.Id" target="_blank" data-spm-protocol="i" data-appeared="true">
+                    <figure class="img-holder" style="--width: 585; --height: 390;">
+                      <img src="@product.ImageUrl" alt="@product.Title" width="585" height="390" class="img-cover">
+                    </figure>
+                  </a>
+
+                  @if (product.IsNew)
+                  {
+                    <span class="badge label-medium">New</span>
+                  }
+
+                  <button class="icon-btn fav-btn" aria-label="add to favorite" data-toggle-btn>
+                    <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                  </button>
+
+                  <a class="cart-link" data-spm="" href="#" target="_blank" data-spm-protocol="" data-appeared="true">
+                    <button class="icon-btn cart-btn" aria-label="add to cart">
+                      <span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span>
+                    </button>
+                  </a>
+
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="title-small card-title" title="@product.Title">
+                    <a href="/Product/ProductDescriptionPage/@product.Id">@product.Title</a>
+                  </h3>
+
+                  <div class="product-review">
+
+                    <div class="rating-wrapper">
+                      <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                      <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                      <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                      <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                      <span class="material-symbols-rounded" aria-hidden="true">star_half</span>
+                    </div>
+
+                    <span class="title-small rating-text">@product.SoldCount sold</span>
+
+                    @if (product.TopSelling)
+                    {
+                      <img src="/Assets/Images/Icons/Top-Selling-7Days.png" alt="Top Selling in 7 Days" class="top-selling-7days">
+                    }
+
+                  </div>
+
+                  <div class="product-price">
+
+                    <div class="discounted">
+                      <span class="currency">@product.Currency</span>
+                      <span class="amount">@Math.Floor(product.Price)</span>
+                      <span class="decimal-point">.</span>
+                      <span class="decimals">@((product.Price % 1).ToString("F2").Substring(2))</span>
+                    </div>
+
+                    <div class="original">
+                      <span class="striked-through">@product.Currency @product.OriginalPrice</span>
+                    </div>
+
+                  </div>
+
+                  <div class="discount-details">
+
+                    <img src="/Assets/Images/Icons/Super-Deals.png" alt="Super Deals" class="super-deals">
+
+                    <span class="divider"></span>
+
+                    <img src="/Assets/Images/Icons/Black-Friday.png" alt="Black Friday" class="black-friday">
+
+                    <span class="divider"></span>
+
+                    <img src="/Assets/Images/Icons/Discount-Arrow.png" alt="Discount Arrow" class="discount-arrow">
+
+                    <span class="discount-percentage">@product.DiscountText</span>
+
+                  </div>
+
+                  <div class="shipping-choice">
+                    @if (product.ChoiceBadge != null)
+                    {
+                      <img src="data:image/png;base64,@(Convert.ToBase64String(product.ChoiceBadge))" alt="Choice Badge" class="choice">
+                    }
+                    @if (!string.IsNullOrEmpty(product.ChoiceText))
+                    {
+                      <span class="free-shipping">@product.ChoiceText</span>
+                    }
+                  </div>
+
+                </div>
+
+                <div class="card-meta-list">
+
+                  <div class="preview">
+                    <button type="button" class="btn btn-outline preview-btn" data-target="#productModal" data-product-id="product-1" aria-controls="productModal" aria-expanded="false">
+                      <span class="label-medium">See Preview</span>
+                    </button>
+                  </div>
+
+                  <div class="similar-items">
+                    <a href="#" class="btn btn-outline">
+                      <span class="label-medium">Similar Items</span>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            }
+          }
+
           <div class="card" data-id="product-1">
 
             <div class="card-banner">
 
-              <a class="product" data-spm="product-1" href="#" target="_blank" data-spm-protocol="i" data-appeared="true">
+              <a class="product" data-spm="product-1" href="/Product/ProductDescriptionPage" target="_blank" data-spm-protocol="i" data-appeared="true">
                 <figure class="img-holder" style="--width: 585; --height: 390;">
                   <img src="/Assets/Images/Products/Alarm-Clock-Digital-Clock-Radio-Wireless-Charging-LED.jpeg" alt="Alarm Clock Digital Clock Radio" width="585" height="390" class="img-cover">
                 </figure>
@@ -672,7 +799,7 @@
             <div class="card-content">
 
               <h3 class="title-small card-title" title="Alarm Clock Digital Clock Radio Wireless Charging LED">
-                <a href="#">Alarm Clock Digital Clock Radio Wireless Charging LED</a>
+                <a href="/Product/ProductDescriptionPage">Alarm Clock Digital Clock Radio Wireless Charging LED</a>
               </h3>
 
               <div class="product-review">

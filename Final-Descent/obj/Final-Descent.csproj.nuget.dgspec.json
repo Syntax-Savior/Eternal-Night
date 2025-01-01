@@ -51,15 +51,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[8.0.11, )"
             },
@@ -77,13 +73,33 @@
               "target": "Package",
               "version": "[8.0.11, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.21.0, )"
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[7.1.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

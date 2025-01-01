@@ -126,6 +126,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\avatar-7.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\avatar-8.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/avatar-8.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pyp4avdbf5</Fingerprint>
+      <Integrity>j+1u7EqU9refI9nWY7+BJMn8v1+PKAK74fYsH8dtBcY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\avatar-8.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Factory-Tour.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
@@ -504,6 +522,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Business-Services.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Certifying-Parties.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Icons/Certifying-Parties.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7p8i6bx838</Fingerprint>
+      <Integrity>dSGOHuWY7hHdXWu3iDhJneC56JJkSyWyMwqcl+aeOwk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Certifying-Parties.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Choice.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
@@ -557,6 +593,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Consumer-Electronics.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Default-Profile-Avatar.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Icons/Default-Profile-Avatar.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gzxz7p17mb</Fingerprint>
+      <Integrity>zNFLk2ih/sxQlR12H74pgTMhuVX+O6bg2vZoRpNhRaI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Default-Profile-Avatar.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Discount-Arrow.png'))">
       <SourceType>Package</SourceType>
@@ -629,6 +683,78 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Furniture.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Giant-Cart-Icon.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Icons/Giant-Cart-Icon.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wpvg4ua08k</Fingerprint>
+      <Integrity>lGBgTseByGw69eLxdTNOnia7rNdeL0KRNv7DmNnjaRk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Giant-Cart-Icon.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Gift-Season.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Icons/Gift-Season.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ovr3riu88o</Fingerprint>
+      <Integrity>HO0bshbWx0LI7c34jWuT8+ilPUKyc+d9jizhYO7ZeGY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Gift-Season.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Green-Background-Banner.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Icons/Green-Background-Banner.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zcfg0sgsv2</Fingerprint>
+      <Integrity>w6GcHuh6moMqWydVktxSuyxEh80i3HhzfHlYwHQd/3Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Green-Background-Banner.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Green-Checkmark-Protected.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Icons/Green-Checkmark-Protected.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>34dpirgbyb</Fingerprint>
+      <Integrity>XZMFbcT2vXu9cn4AExVVfOLSugUMMZN3Xo9LNJsYwpc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Green-Checkmark-Protected.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Home&amp;Garden.png'))">
       <SourceType>Package</SourceType>
@@ -720,6 +846,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Mother-Kids&amp;Toys.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\No-Fill-Protected.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Icons/No-Fill-Protected.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bpmd4guiw2</Fingerprint>
+      <Integrity>0Scp3p1qSF+cQNdB8u73+II32sUgLfNs8f/+teAXL6s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\No-Fill-Protected.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Packaging&amp;Printing.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
@@ -791,6 +935,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Protected.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Red-Background-Banner.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Icons/Red-Background-Banner.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>18l8ngc2zj</Fingerprint>
+      <Integrity>j+uRIft5kM2FG052OYKjZYE2jOWu/LUXkcxO6GLCpL0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Red-Background-Banner.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Red-Linear-Gradient-Background.png'))">
       <SourceType>Package</SourceType>
@@ -972,6 +1134,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Vehicle-Parts&amp;Accessories.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Video-Play-Icon.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Icons/Video-Play-Icon.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vbe3499jzt</Fingerprint>
+      <Integrity>tfwpvDuCJKbMAJclNUaV5dqRab32WYg6dKe0viumoso=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Video-Play-Icon.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Welcome-Deal.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
@@ -990,6 +1170,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\Welcome-Deal.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\White-Thunder-Bolt.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Icons/White-Thunder-Bolt.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1h4ucgx4ed</Fingerprint>
+      <Integrity>27GQbIIUgWKaVum2MqW/udvZjWBnc7p9AXTYC9q9iC0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Icons\White-Thunder-Bolt.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Login-Banner.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
@@ -1007,6 +1205,96 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Login-Banner.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Manufacturer-Image-1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Manufacturer-Image-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jvwxcpcgye</Fingerprint>
+      <Integrity>r3So0O0u+b0vcL2FQTVDQezYNBrw+fNtmdJea5EotRA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Manufacturer-Image-1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Manufacturer-Image-2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Manufacturer-Image-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>k7airpgfwr</Fingerprint>
+      <Integrity>0DwigphxTO3YjrY3GSOErcTqD/pHuof3pgHxWb2tFns=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Manufacturer-Image-2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Manufacturer-Image-3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Manufacturer-Image-3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mse345wfig</Fingerprint>
+      <Integrity>WhqY0gQVwXuTAYo/mFoJM1sz4GW2Ofh48oQFNCQXV0s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Manufacturer-Image-3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Manufacturer-Image-4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Manufacturer-Image-4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5wsfcvzhfp</Fingerprint>
+      <Integrity>++eSh4CX4wXDH0Px7ZaPkUyr5zINi1eMT4Dmx2PWFF4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Manufacturer-Image-4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Manufacturer-Image-5.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Manufacturer-Image-5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bkogbbjn4p</Fingerprint>
+      <Integrity>pTj3m2IgxMefo4qEkA24bO9QBL3VslTuK/I6xuNB1GI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Manufacturer-Image-5.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Nike Womens Gym Wear.png'))">
       <SourceType>Package</SourceType>
@@ -1061,6 +1349,132 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\nike-zoom-pegasus-turbo-5.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\Binance.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Payment-Methods-Logo/Binance.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j0ju45n3hy</Fingerprint>
+      <Integrity>PVwAaL0sTKWs3/nnPfr7IKCT2VNpdqgeiouNJsbLQu4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\Binance.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\CBE.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Payment-Methods-Logo/CBE.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gylg0726r4</Fingerprint>
+      <Integrity>KO9kFnnxQ4R3fs/7ZvXSgKiaNKDpGowg704TRtd9/Js=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\CBE.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\Chapa.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Payment-Methods-Logo/Chapa.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lt7x0a3gfl</Fingerprint>
+      <Integrity>2T3GXxHZGzMvYhKv6+4qk9H6fEA8mAjZJCHDg9Bl1m4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\Chapa.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\Mpesa.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Payment-Methods-Logo/Mpesa.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>00z9af1ikt</Fingerprint>
+      <Integrity>cI9ud4WklYJiSYb2t7Cgz8ju9y0uVt5fx4SNyrzpXCU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\Mpesa.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\OKX-Logo.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Payment-Methods-Logo/OKX-Logo.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2g9k39te5f</Fingerprint>
+      <Integrity>LpznkM73tmb+ztfy9Jx9SKEUMn2GwkThILSGvuENJnA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\OKX-Logo.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\Telebirr.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Payment-Methods-Logo/Telebirr.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nbettqdf2d</Fingerprint>
+      <Integrity>PZ2vsI/yd7+F0Ca+T6J8JsAfP8W5Te9A221v4iWQc7I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\Telebirr.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\Telegram-Wallet.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Payment-Methods-Logo/Telegram-Wallet.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q6ui2vldne</Fingerprint>
+      <Integrity>ruggGbL4SZX0OSzk1ShooA6rEan/dT7SHEEbUpTwaAc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Payment-Methods-Logo\Telegram-Wallet.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Philips All-in-One Trimmer 7000 Series original.png'))">
       <SourceType>Package</SourceType>
@@ -1277,6 +1691,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Products\Fashion-Cross-Strap-Fluffy-Slippers-Women.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Products\Gaming-Mouse.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Products/Gaming-Mouse.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>g21m7ke4he</Fingerprint>
+      <Integrity>6MXs1RoceZ8lyXiO8jmiTIPh+esq62aGEK4eS5Vm2ns=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Products\Gaming-Mouse.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Products\Giant-Bean-Bag.jpg'))">
       <SourceType>Package</SourceType>
@@ -1890,6 +2322,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Top-Ranking-Manufacturers.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Video-Thumbnails\Manufacturers-Video-Thumbnail.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Video-Thumbnails/Manufacturers-Video-Thumbnail.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kcrq214629</Fingerprint>
+      <Integrity>9LIYiZAw4CQyTT6+rSsPXjtPOa7D6yKr3dWuDnC8tQk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Video-Thumbnails\Manufacturers-Video-Thumbnail.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Video-Thumbnails\thumbnail-1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Video-Thumbnails/thumbnail-1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>84skqu3hv2</Fingerprint>
+      <Integrity>WM2+xsWLNWpcdHGwT6ZnBvtsV9SN1f4iV+Eov0H8Ft8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Video-Thumbnails\thumbnail-1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Video-Thumbnails\Video-Description-Background.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>Assets/Images/Video-Thumbnails/Video-Description-Background.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>psnumzutz6</Fingerprint>
+      <Integrity>B8plRyAotrawOqat3gfiWHn2VHGzgTZjWr7X45WFGdE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Images\Video-Thumbnails\Video-Description-Background.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Videos\CHANEL-Iconic.mp4'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
@@ -1980,30 +2466,174 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\Videos\Philips.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\footers\primary-footer.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Final-Descent</BasePath>
-      <RelativePath>css/main.css</RelativePath>
+      <RelativePath>css/footers/primary-footer.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pfpnz6ss7h</Fingerprint>
-      <Integrity>hXuRWeWzu2gGv0omtHwKUvmvhXXyj83nbYePqI4Qqn0=</Integrity>
+      <Fingerprint>kkmu6uk0zs</Fingerprint>
+      <Integrity>xAsv54hDC/ph44XwhMjAzv9s6NlyjTOc4e8cBHf+niM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\footers\primary-footer.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\product-description-page.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\footers\secondary-footer.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Final-Descent</BasePath>
-      <RelativePath>css/product-description-page.css</RelativePath>
+      <RelativePath>css/footers/secondary-footer.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iuvedez1r4</Fingerprint>
+      <Integrity>RtL6JWYLkq+JOSdpUjibn56DadC5rSo30VSIq9F1HpM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\footers\secondary-footer.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\headers\primary-header.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>css/headers/primary-header.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ub2wy66ktt</Fingerprint>
+      <Integrity>ym1GYAgWbdMu+0nIhMM4VTS6nB1rYvJpHkNtF7OHd6w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\headers\primary-header.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\headers\secondary-header.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>css/headers/secondary-header.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a4gpunprnn</Fingerprint>
+      <Integrity>2gc0pDIERaU3aj1O6jIQfYOUmoXbiDwYeBzs+JZk2kY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\headers\secondary-header.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\pages\cart.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>css/pages/cart.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8y1kc1og5z</Fingerprint>
+      <Integrity>4PYqs3oXLyxQL+RgLvEf5M1AZfYAe3qSagFDmsUcGy0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\pages\cart.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\pages\cart-empty.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>css/pages/cart-empty.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tyyhfcvvnm</Fingerprint>
+      <Integrity>RZr4yA8FhblqWQDidaEweFWi5dItg62d9iQt6haQUso=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\pages\cart-empty.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\pages\main.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>css/pages/main.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d1l0eratqf</Fingerprint>
+      <Integrity>f5ufudb79jKAY+k1t8ahnkm5gqlkuoCgjhZtC+4mMPA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\pages\main.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\pages\product-description-page.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>css/pages/product-description-page.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iioskcamjp</Fingerprint>
+      <Integrity>Gs87ZTNYk482fZO3Pbls96/sxi1xZ5SimouDdUQiD1g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\pages\product-description-page.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\fetch-products\fetchProducts.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>js/fetch-products/fetchProducts.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pudf9907p3</Fingerprint>
+      <Integrity>H9+FBEAXtn3iSl9Qm767ujSj1s/c1DHTqKM4QBVd7Gk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\fetch-products\fetchProducts.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\footers\primary-footer.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>js/footers/primary-footer.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2014,32 +2644,68 @@
       <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\product-description-page.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\footers\primary-footer.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\footers\secondary-footer.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Final-Descent</BasePath>
-      <RelativePath>js/main.js</RelativePath>
+      <RelativePath>js/footers/secondary-footer.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kvlyw50z31</Fingerprint>
-      <Integrity>wEjE0TsPS9uKxLRngy1Wg/HogSMNqaG4rj5GGSvKIsw=</Integrity>
+      <Fingerprint>5ipweew5fc</Fingerprint>
+      <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\footers\secondary-footer.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\modal.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\headers\primary-header.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Final-Descent</BasePath>
-      <RelativePath>js/modal.js</RelativePath>
+      <RelativePath>js/headers/primary-header.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hm1xu6ptrx</Fingerprint>
+      <Integrity>eQw94Th74Lpuw7ac02AIJQxxBUFN1BncnmL9+A0LtJA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\headers\primary-header.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\headers\secondary-header.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>js/headers/secondary-header.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m75m983i01</Fingerprint>
+      <Integrity>HsNygmlPOx6kP0k4y6/ta9nJKM80sKKhCMLLWzzHLGo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\headers\secondary-header.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\modals\home-page-preview-modal.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>js/modals/home-page-preview-modal.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -2050,25 +2716,43 @@
       <Integrity>lmWejyIM6Jup/PqcUDjD+HqZUCWGERFpi+muWVvA+sY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\modal.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\modals\home-page-preview-modal.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\product-description-page.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\main.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Final-Descent</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Final-Descent</BasePath>
-      <RelativePath>js/product-description-page.js</RelativePath>
+      <RelativePath>js/pages/main.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5ipweew5fc</Fingerprint>
-      <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
+      <Fingerprint>28azunzzdp</Fingerprint>
+      <Integrity>flcODkYtMWuWVjSxyg2r8K71qu9zokLjjGenujz5jO8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\product-description-page.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\main.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\product-description-page.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Final-Descent</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Final-Descent</BasePath>
+      <RelativePath>js/pages/product-description-page.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>y5n785excr</Fingerprint>
+      <Integrity>+jKX1C4CLtH/1wyGhBlEpYrF6ydhiG4sztTSuUZVqa8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\product-description-page.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))">
       <SourceType>Package</SourceType>

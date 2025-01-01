@@ -5,6 +5,7 @@ wwwroot\Assets\Images\avatar-4.jpg
 wwwroot\Assets\Images\avatar-5.jpg
 wwwroot\Assets\Images\avatar-6.jpg
 wwwroot\Assets\Images\avatar-7.jpg
+wwwroot\Assets\Images\avatar-8.png
 wwwroot\Assets\Images\Factory-Tour.png
 wwwroot\Assets\Images\Flags\001-united-states.png
 wwwroot\Assets\Images\Flags\002-ethiopia.png
@@ -26,22 +27,30 @@ wwwroot\Assets\Images\Icons\Big-Save.png
 wwwroot\Assets\Images\Icons\Black-Friday.png
 wwwroot\Assets\Images\Icons\Black-Friday-Banner-Text.png
 wwwroot\Assets\Images\Icons\Business-Services.png
+wwwroot\Assets\Images\Icons\Certifying-Parties.png
 wwwroot\Assets\Images\Icons\Choice.png
 wwwroot\Assets\Images\Icons\Commercial-Equipment&Machinery.png
 wwwroot\Assets\Images\Icons\Consumer-Electronics.png
+wwwroot\Assets\Images\Icons\Default-Profile-Avatar.png
 wwwroot\Assets\Images\Icons\Discount-Arrow.png
 wwwroot\Assets\Images\Icons\Environment.png
 wwwroot\Assets\Images\Icons\Feedback.png
 wwwroot\Assets\Images\Icons\Furniture.png
+wwwroot\Assets\Images\Icons\Giant-Cart-Icon.png
+wwwroot\Assets\Images\Icons\Gift-Season.png
+wwwroot\Assets\Images\Icons\Green-Background-Banner.png
+wwwroot\Assets\Images\Icons\Green-Checkmark-Protected.png
 wwwroot\Assets\Images\Icons\Home&Garden.png
 wwwroot\Assets\Images\Icons\Industrial-Machinery.png
 wwwroot\Assets\Images\Icons\Jewelry-Eyewear-Watches&Accessories.png
 wwwroot\Assets\Images\Icons\Live-Icon.gif
 wwwroot\Assets\Images\Icons\Mother-Kids&Toys.png
+wwwroot\Assets\Images\Icons\No-Fill-Protected.png
 wwwroot\Assets\Images\Icons\Packaging&Printing.png
 wwwroot\Assets\Images\Icons\Price-Tag.png
 wwwroot\Assets\Images\Icons\Privacy-Options.jpeg
 wwwroot\Assets\Images\Icons\Protected.png
+wwwroot\Assets\Images\Icons\Red-Background-Banner.png
 wwwroot\Assets\Images\Icons\Red-Linear-Gradient-Background.png
 wwwroot\Assets\Images\Icons\Security.png
 wwwroot\Assets\Images\Icons\Shipping-Truck.png
@@ -52,11 +61,25 @@ wwwroot\Assets\Images\Icons\Tools&Hardware.png
 wwwroot\Assets\Images\Icons\Top-Selling.png
 wwwroot\Assets\Images\Icons\Top-Selling-7Days.png
 wwwroot\Assets\Images\Icons\Vehicle-Parts&Accessories.png
+wwwroot\Assets\Images\Icons\Video-Play-Icon.png
 wwwroot\Assets\Images\Icons\Welcome-Deal.png
+wwwroot\Assets\Images\Icons\White-Thunder-Bolt.png
 wwwroot\Assets\Images\Login-Banner.jpg
+wwwroot\Assets\Images\Manufacturer-Image-1.jpg
+wwwroot\Assets\Images\Manufacturer-Image-2.jpg
+wwwroot\Assets\Images\Manufacturer-Image-3.jpg
+wwwroot\Assets\Images\Manufacturer-Image-4.jpg
+wwwroot\Assets\Images\Manufacturer-Image-5.jpg
 wwwroot\Assets\Images\Nike Womens Gym Wear.png
 wwwroot\Assets\Images\nike-zoom-pegasus-turbo-5 original.png
 wwwroot\Assets\Images\nike-zoom-pegasus-turbo-5.png
+wwwroot\Assets\Images\Payment-Methods-Logo\Binance.png
+wwwroot\Assets\Images\Payment-Methods-Logo\CBE.jpg
+wwwroot\Assets\Images\Payment-Methods-Logo\Chapa.jpeg
+wwwroot\Assets\Images\Payment-Methods-Logo\Mpesa.jpg
+wwwroot\Assets\Images\Payment-Methods-Logo\OKX-Logo.png
+wwwroot\Assets\Images\Payment-Methods-Logo\Telebirr.png
+wwwroot\Assets\Images\Payment-Methods-Logo\Telegram-Wallet.jpg
 wwwroot\Assets\Images\Philips All-in-One Trimmer 7000 Series original.png
 wwwroot\Assets\Images\Philips All-in-One Trimmer 7000 Series.png
 wwwroot\Assets\Images\Products\5PC-Silk-Robe-Sleep-Suit.jpg
@@ -69,6 +92,7 @@ wwwroot\Assets\Images\Products\Cordless-Grinder.jpeg
 wwwroot\Assets\Images\Products\Day-Night-Driving-Glasses.jpeg
 wwwroot\Assets\Images\Products\Dish-Drying-Rack.jpg
 wwwroot\Assets\Images\Products\Fashion-Cross-Strap-Fluffy-Slippers-Women.png
+wwwroot\Assets\Images\Products\Gaming-Mouse.jpg
 wwwroot\Assets\Images\Products\Giant-Bean-Bag.jpg
 wwwroot\Assets\Images\Products\Hallway-Shoe-Rack.jpg
 wwwroot\Assets\Images\Products\happygrill-walk-in-greenhouse-review.jpeg
@@ -103,16 +127,30 @@ wwwroot\Assets\Images\Testimonials-Background-Image.png
 wwwroot\Assets\Images\The CHANEL Iconic original.png
 wwwroot\Assets\Images\The CHANEL Iconic.png
 wwwroot\Assets\Images\Top-Ranking-Manufacturers.png
+wwwroot\Assets\Images\Video-Thumbnails\Manufacturers-Video-Thumbnail.jpg
+wwwroot\Assets\Images\Video-Thumbnails\thumbnail-1.png
+wwwroot\Assets\Images\Video-Thumbnails\Video-Description-Background.png
 wwwroot\Assets\Videos\CHANEL-Iconic.mp4
 wwwroot\Assets\Videos\Island.mp4
 wwwroot\Assets\Videos\Nike-Women.mp4
 wwwroot\Assets\Videos\Nike-Zoom.mp4
 wwwroot\Assets\Videos\Philips.mp4
-wwwroot\css\main.css
-wwwroot\css\product-description-page.css
-wwwroot\js\main.js
-wwwroot\js\modal.js
-wwwroot\js\product-description-page.js
+wwwroot\css\footers\primary-footer.css
+wwwroot\css\footers\secondary-footer.css
+wwwroot\css\headers\primary-header.css
+wwwroot\css\headers\secondary-header.css
+wwwroot\css\pages\cart.css
+wwwroot\css\pages\cart-empty.css
+wwwroot\css\pages\main.css
+wwwroot\css\pages\product-description-page.css
+wwwroot\js\fetch-products\fetchProducts.js
+wwwroot\js\footers\primary-footer.js
+wwwroot\js\footers\secondary-footer.js
+wwwroot\js\headers\primary-header.js
+wwwroot\js\headers\secondary-header.js
+wwwroot\js\modals\home-page-preview-modal.js
+wwwroot\js\pages\main.js
+wwwroot\js\pages\product-description-page.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
