@@ -565,6 +565,10 @@
       "PackagePath": "staticwebassets\\css\\headers\\secondary-header.css"
     },
     {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\add-phone-number-page.css",
+      "PackagePath": "staticwebassets\\css\\pages\\add-phone-number-page.css"
+    },
+    {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\cart-empty.css",
       "PackagePath": "staticwebassets\\css\\pages\\cart-empty.css"
     },
@@ -573,16 +577,24 @@
       "PackagePath": "staticwebassets\\css\\pages\\cart.css"
     },
     {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\login.css",
+      "PackagePath": "staticwebassets\\css\\pages\\login.css"
+    },
+    {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\main.css",
       "PackagePath": "staticwebassets\\css\\pages\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\otp-request-page.css",
+      "PackagePath": "staticwebassets\\css\\pages\\otp-request-page.css"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\product-description-page.css",
       "PackagePath": "staticwebassets\\css\\pages\\product-description-page.css"
     },
     {
-      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\fetch-products\\fetchProducts.js",
-      "PackagePath": "staticwebassets\\js\\fetch-products\\fetchProducts.js"
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\signup.css",
+      "PackagePath": "staticwebassets\\css\\pages\\signup.css"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\footers\\primary-footer.js",
@@ -605,12 +617,28 @@
       "PackagePath": "staticwebassets\\js\\modals\\home-page-preview-modal.js"
     },
     {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\add-phone-number-page.js",
+      "PackagePath": "staticwebassets\\js\\pages\\add-phone-number-page.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\login.js",
+      "PackagePath": "staticwebassets\\js\\pages\\login.js"
+    },
+    {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\main.js",
       "PackagePath": "staticwebassets\\js\\pages\\main.js"
     },
     {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\otp-request-page.js",
+      "PackagePath": "staticwebassets\\js\\pages\\otp-request-page.js"
+    },
+    {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\product-description-page.js",
       "PackagePath": "staticwebassets\\js\\pages\\product-description-page.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\signup.js",
+      "PackagePath": "staticwebassets\\js\\pages\\signup.js"
     },
     {
       "Id": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\lib\\bootstrap\\LICENSE",

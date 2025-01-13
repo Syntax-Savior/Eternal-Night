@@ -580,10 +580,14 @@
                   </div>
 
                   <div class="action-buttons">
-
-                    <button type="button" class="buy-now">
-                      <span>Buy now</span>
-                    </button>
+                    
+                    <form action="/Payment/Initialize" method="post">
+                      <input type="hidden" name="amount" value="1000">
+                      <input type="hidden" name="phoneNumber" value="0900881111">
+                      <button type="submit" class="buy-now">
+                        <span>Buy now</span>
+                      </button>
+                    </form>
 
                     <button type="button" class="add-to-cart">
                       <span>Add to cart</span>

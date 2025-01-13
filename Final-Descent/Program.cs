@@ -24,13 +24,51 @@ namespace Final_Descent
             // Register the Product Service
             builder.Services.AddSingleton<ProductService>();
 
+            // Register the Email Service
+            builder.Services.AddSingleton<EmailService>();
+
             // Add services to the container.
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
                                    throw new InvalidOperationException(
                                        "Connection string 'DefaultConnection' not found.");
 
             // Register the Registration Service
-            builder.Services.AddSingleton(new RegistrationService(connectionString));
+            builder.Services.AddSingleton(sp =>
+            {
+                var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
+                                       throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+                var emailService = sp.GetRequiredService<EmailService>();
+
+                return new RegistrationService(connectionString, emailService);
+            });
+
+            // Enable Session Management
+            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddSession(options =>
+            {
+                options.Cookie.Name = "FinalDescent.Session";
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+                options.IdleTimeout = TimeSpan.FromHours(48);
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+            });
+
+            builder.Services.AddHttpsRedirection(options =>
+            {
+                options.RedirectStatusCode = StatusCodes.Status308PermanentRedirect;
+                options.HttpsPort = 7287;
+            });
+
+            // Register the Chapa Service
+            builder.Services.AddHttpClient<ChapaService>();
+            builder.Services.AddSingleton(sp =>
+            {
+                var configuration = sp.GetRequiredService<IConfiguration>();
+                var chapaPublicKey = configuration["Chapa:PublicKey"] 
+                    ?? throw new InvalidOperationException("Chapa Public Key not found in configuration.");
+
+                return new ChapaService(chapaPublicKey);
+            });
 
             builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
@@ -47,7 +85,10 @@ namespace Final_Descent
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Final Descent API v1");
+                });
 
                 app.UseMigrationsEndPoint();
             }
@@ -60,8 +101,22 @@ namespace Final_Descent
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            
+
+            app.UseSession();
+
             app.UseRouting();
+
+            app.UseMiddleware<Final_Descent.Middleware.SessionValidationMiddleware>();
+
+            app.Use(async (context, next) =>
+            {
+                context.Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate";
+                context.Response.Headers["Pragma"] = "no-cache";
+                context.Response.Headers["Expires"] = "0";
+                await next();
+            });
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

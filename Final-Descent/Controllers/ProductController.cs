@@ -15,6 +15,10 @@ namespace Final_Descent.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.IsLoggedIn = HttpContext.Session.GetString("IsLoggedIn") == "true";
+
+            ViewBag.UserEmail = HttpContext.Session.GetString("UserEmail");
+
             var products = _productService.GetProducts();
             return View("~/Views/Home/Index.cshtml", products);
         }

@@ -1,24 +1,24 @@
 [
   {
-    "ContainingType": "Final_Descent.Controllers.RegistrationController",
-    "Method": "FinalizeRegistration",
-    "RelativePath": "api/Registration/finalize-registration",
+    "ContainingType": "Final_Descent.Controllers.APIsRegistrationController",
+    "Method": "AddPhoneNumber",
+    "RelativePath": "api/APIsRegistration/add-phone-number",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "Final_Descent.Models.FinalizeRegistrationRequest",
+        "Name": "phoneNumber",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Final_Descent.Controllers.RegistrationController",
+    "ContainingType": "Final_Descent.Controllers.APIsRegistrationController",
     "Method": "Register",
-    "RelativePath": "api/Registration/register",
+    "RelativePath": "api/APIsRegistration/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -32,32 +32,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Final_Descent.Controllers.RegistrationController",
-    "Method": "SendOTP",
-    "RelativePath": "api/Registration/send-otp",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "email",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Final_Descent.Controllers.RegistrationController",
+    "ContainingType": "Final_Descent.Controllers.APIsRegistrationController",
     "Method": "VerifyOTP",
-    "RelativePath": "api/Registration/verify-otp",
+    "RelativePath": "api/APIsRegistration/verify-otp",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "Final_Descent.Models.VerifyOtpRequest",
+        "Name": "otp",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -170,6 +154,197 @@
       },
       {
         "Name": "currency",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.PaymentController",
+    "Method": "Initialize",
+    "RelativePath": "Payment/Initialize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "phoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.RazorViewsRegistrationController",
+    "Method": "AddPhoneNumberPage",
+    "RelativePath": "RazorViewsRegistrationController/add-phone-number",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.RazorViewsRegistrationController",
+    "Method": "AddPhoneNumber",
+    "RelativePath": "RazorViewsRegistrationController/add-phone-number",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.RazorViewsRegistrationController",
+    "Method": "Login",
+    "RelativePath": "RazorViewsRegistrationController/login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.RazorViewsRegistrationController",
+    "Method": "Login",
+    "RelativePath": "RazorViewsRegistrationController/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.RazorViewsRegistrationController",
+    "Method": "Logout",
+    "RelativePath": "RazorViewsRegistrationController/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.RazorViewsRegistrationController",
+    "Method": "OtpRequestPage",
+    "RelativePath": "RazorViewsRegistrationController/otp-request-page",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.RazorViewsRegistrationController",
+    "Method": "OtpRequestPage",
+    "RelativePath": "RazorViewsRegistrationController/otp-request-page",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "otp",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.RazorViewsRegistrationController",
+    "Method": "Signup",
+    "RelativePath": "RazorViewsRegistrationController/signup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.RazorViewsRegistrationController",
+    "Method": "Signup",
+    "RelativePath": "RazorViewsRegistrationController/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PasswordHash",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OTP",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OTPExpiration",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConfirmPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Final_Descent.Controllers.RazorViewsRegistrationController",
+    "Method": "VerifyOTP",
+    "RelativePath": "RazorViewsRegistrationController/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "otp",
         "Type": "System.String",
         "IsRequired": false
       }

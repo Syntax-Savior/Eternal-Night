@@ -1,0 +1,56 @@
+﻿@{
+  Layout = "~/Views/Shared/_MinimalLayout.cshtml";
+  ViewData["Title"] = "Login";
+}
+
+<div class="wrapper">
+  
+  @if (ViewData["ErrorMessage"] != null)
+  {
+    <div class="error-message">
+      @ViewData["ErrorMessage"]
+    </div>
+  }
+
+  <form id="loginForm" class="login-form" asp-controller="RazorViewsRegistration" asp-action="Login" method="post">
+
+    <div class="page-detail">
+      <span class="detail">Login</span>
+    </div>
+
+    <div class="input-group">
+      <div class="input-box">
+        <i class="fa-solid fa-user icon"></i>
+        <input class="user-input" type="email" name="email" placeholder="your_email@gmail.com" autocomplete="off" required>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <div class="input-box">
+        <i class="fa-solid fa-unlock icon"></i>
+        <input class="user-input" type="password" name="password" placeholder="Password" autocomplete="off" required>
+      </div>
+    </div>
+
+    <div class="option-01">
+      <label class="remember-me"><input type="checkbox" name="">Remember me</label>
+      <a href="#">Forgot your Password?</a>
+    </div>
+
+    <button class="btn btn-primary btn-ghost" type="submit">Login</button>
+
+    <div class="option-02">
+      <p>Not Registered? <a href="signup.html">Create an Account</a></p>
+    </div>
+
+  </form>
+
+</div>
+
+@section Styles {
+  <link rel="stylesheet" href="/css/pages/login.css">
+}
+
+@section Scripts {
+  <script src="/js/pages/login.js"></script>
+}

@@ -41,12 +41,18 @@
     <link rel="stylesheet" href="/css/headers/secondary-header.css">
     <link rel="stylesheet" href="/css/pages/product-description-page.css">
     <link rel="stylesheet" href="/css/footers/secondary-footer.css">
+    @RenderSection("Styles", required: false)
 
     <!--
       - custom js links
     -->
     <script src="/js/headers/secondary-header.js" defer></script>
     <script src="/js/pages/product-description-page.js" defer></script>
+    
+    <!--
+    - #PAGE-SPECIFIC SCRIPTS
+    -->
+    @RenderSection("Scripts", required:false)
 
     <!--
       - GSAP animation library
@@ -78,5 +84,5 @@
 
     @Html.Partial("_SecondaryFooter")
 
-  </body>
+    </body>
 </html>

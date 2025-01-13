@@ -1,0 +1,79 @@
+﻿@model Final_Descent.Models.UnverifiedUser;
+
+@{
+  Layout = "~/Views/Shared/_MinimalLayout.cshtml";
+  ViewData["Title"] = "Create Account";
+}
+
+<div class="wrapper">
+
+  <div class="page-detail">
+    <span class="detail">Create Account</span>
+  </div>
+  
+  @if (TempData["ErrorMessage"] != null)
+  {
+    <div class="error-message">
+      @TempData["ErrorMessage"]
+    </div>
+  }
+
+  <form class="sign-up-form" method="post" asp-controller="RazorViewsRegistration" asp-action="Signup">
+
+    <div class="input-group">
+      <div class="input-box">
+        <i class="fa-solid fa-user icon"></i>
+        <span class="input-field-detail">Your name</span>
+        <input class="user-input" type="text" name="FullName" placeholder="First and last name" required>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <div class="input-box">
+        <i class="fa-solid fa-envelope icon"></i>
+        <span class="input-field-detail">Email Address</span>
+        <input class="user-input" type="email" name="Email" placeholder="your_email@gmail.com" required>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <div class="input-box">
+        <i class="fa-solid fa-lock icon"></i>
+        <span class="input-field-detail">Password</span>
+        <input class="user-input" id="password" type="password" name="PasswordHash" placeholder="Password" required minlength="6" maxlength="39">
+        <span class="password-character-warning">
+          <i class="fa-solid fa-info"></i> Password must be at least 6 characters.
+        </span>
+      </div>
+      <div class="input-box">
+        <i class="fa-solid fa-signature icon"></i>
+        <span class="input-field-detail">Re-enter password</span>
+        <input class="user-input" type="password" name="ConfirmPassword" placeholder="Confirm Password" required>
+      </div>
+    </div>
+
+    <button type="submit">
+      <span class="btn">Next</span>
+    </button>
+
+    <div class="terms-of-service">
+      <p>
+        By creating an account, you agree to Senior Project's <br>
+        <a href="#">Conditions of Use </a>and
+        <a href="#">Privacy Notice</a>.
+      </p>
+    </div>
+    <div class="option-01">
+      <p>Already Registered? <a href="login.html">Login</a></p>
+    </div>
+
+  </form>
+</div>
+
+@section Styles {
+  <link rel="stylesheet" href="/css/pages/signup.css">
+}
+
+@section Scripts {
+  <script src="/js/pages/signup.js"></script>
+}

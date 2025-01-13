@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oK1yME1HcCJh3m3D7DC/jkzX7YQbjsKL4djVaT8IwoM=",
+  "Hash": "39nH5bG4G/k3k9MNvK0w1nfzANwP1C6EiSIjgHKQm4M=",
   "Source": "Final-Descent",
   "BasePath": "_content/Final-Descent",
   "Mode": "Default",
@@ -2950,8 +2950,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ub2wy66ktt",
-      "Integrity": "ym1GYAgWbdMu+0nIhMM4VTS6nB1rYvJpHkNtF7OHd6w=",
+      "Fingerprint": "24ixxco1pk",
+      "Integrity": "DvVJYyOxRhX2/y7kcf373y3aXkD3PrEsiFK4NrUQRf4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\headers\\primary-header.css"
@@ -2976,6 +2976,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\headers\\secondary-header.css"
+    },
+    {
+      "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\add-phone-number-page.css",
+      "SourceId": "Final-Descent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\",
+      "BasePath": "_content/Final-Descent",
+      "RelativePath": "css/pages/add-phone-number-page#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5a3fp2kywh",
+      "Integrity": "XX/Wbvn268dBf937cAOTBMryPPMz+R2+cYZHJdilBAo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pages\\add-phone-number-page.css"
     },
     {
       "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\cart.css",
@@ -3020,6 +3041,27 @@
       "OriginalItemSpec": "wwwroot\\css\\pages\\cart-empty.css"
     },
     {
+      "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\login.css",
+      "SourceId": "Final-Descent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\",
+      "BasePath": "_content/Final-Descent",
+      "RelativePath": "css/pages/login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0xpgz8t3kd",
+      "Integrity": "NJq5/Jfn58pOsiAzWo35bKh4e8+1rSteM75vLTgaOxY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pages\\login.css"
+    },
+    {
       "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\main.css",
       "SourceId": "Final-Descent",
       "SourceType": "Discovered",
@@ -3039,6 +3081,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\pages\\main.css"
+    },
+    {
+      "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\otp-request-page.css",
+      "SourceId": "Final-Descent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\",
+      "BasePath": "_content/Final-Descent",
+      "RelativePath": "css/pages/otp-request-page#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1k8nxdypoz",
+      "Integrity": "EQCB8g5Zerl/E1kiqGJ+XFPBqHae14lcd6ewkyKES6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pages\\otp-request-page.css"
     },
     {
       "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\product-description-page.css",
@@ -3062,12 +3125,12 @@
       "OriginalItemSpec": "wwwroot\\css\\pages\\product-description-page.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\fetch-products\\fetchProducts.js",
+      "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\signup.css",
       "SourceId": "Final-Descent",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\",
       "BasePath": "_content/Final-Descent",
-      "RelativePath": "js/fetch-products/fetchProducts#[.{fingerprint}]?.js",
+      "RelativePath": "css/pages/signup#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3076,11 +3139,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pudf9907p3",
-      "Integrity": "H9+FBEAXtn3iSl9Qm767ujSj1s/c1DHTqKM4QBVd7Gk=",
+      "Fingerprint": "7qjcicmklc",
+      "Integrity": "Ia+MB3KY3FfX+Rc19ii62sRxTAtXMjtYNl0MtSUMkMM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\fetch-products\\fetchProducts.js"
+      "OriginalItemSpec": "wwwroot\\css\\pages\\signup.css"
     },
     {
       "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\footers\\primary-footer.js",
@@ -3139,8 +3202,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hm1xu6ptrx",
-      "Integrity": "eQw94Th74Lpuw7ac02AIJQxxBUFN1BncnmL9+A0LtJA=",
+      "Fingerprint": "lmcj7iovyx",
+      "Integrity": "UwqWbpJuRDGF41vv22qrjSmHM7yCpCmC8pXvS55ifds=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\headers\\primary-header.js"
@@ -3188,6 +3251,48 @@
       "OriginalItemSpec": "wwwroot\\js\\modals\\home-page-preview-modal.js"
     },
     {
+      "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\add-phone-number-page.js",
+      "SourceId": "Final-Descent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\",
+      "BasePath": "_content/Final-Descent",
+      "RelativePath": "js/pages/add-phone-number-page#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pages\\add-phone-number-page.js"
+    },
+    {
+      "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\login.js",
+      "SourceId": "Final-Descent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\",
+      "BasePath": "_content/Final-Descent",
+      "RelativePath": "js/pages/login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "804idtk6w2",
+      "Integrity": "OJomdQdbLUeAcwgjrDhgNW2DBQyJMO+bNpWjUYIpIYM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pages\\login.js"
+    },
+    {
       "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\main.js",
       "SourceId": "Final-Descent",
       "SourceType": "Discovered",
@@ -3209,6 +3314,27 @@
       "OriginalItemSpec": "wwwroot\\js\\pages\\main.js"
     },
     {
+      "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\otp-request-page.js",
+      "SourceId": "Final-Descent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\",
+      "BasePath": "_content/Final-Descent",
+      "RelativePath": "js/pages/otp-request-page#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pages\\otp-request-page.js"
+    },
+    {
       "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\product-description-page.js",
       "SourceId": "Final-Descent",
       "SourceType": "Discovered",
@@ -3228,6 +3354,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\pages\\product-description-page.js"
+    },
+    {
+      "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\signup.js",
+      "SourceId": "Final-Descent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\",
+      "BasePath": "_content/Final-Descent",
+      "RelativePath": "js/pages/signup#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gr85rtjceg",
+      "Integrity": "nHpTq9yqb/hnOqzShuYiUmlGmqkxtEUCJkKC0ub8UnU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pages\\signup.js"
     },
     {
       "Identity": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -15827,6 +15974,51 @@
       ]
     },
     {
+      "Route": "css/headers/primary-header.24ixxco1pk.css",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\headers\\primary-header.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DvVJYyOxRhX2/y7kcf373y3aXkD3PrEsiFK4NrUQRf4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 08:09:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "24ixxco1pk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/headers/primary-header.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DvVJYyOxRhX2/y7kcf373y3aXkD3PrEsiFK4NrUQRf4="
+        }
+      ]
+    },
+    {
       "Route": "css/headers/primary-header.css",
       "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\headers\\primary-header.css",
       "Selectors": [],
@@ -15837,7 +16029,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18105"
+          "Value": "20242"
         },
         {
           "Name": "Content-Type",
@@ -15845,11 +16037,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ym1GYAgWbdMu+0nIhMM4VTS6nB1rYvJpHkNtF7OHd6w=\""
+          "Value": "\"DvVJYyOxRhX2/y7kcf373y3aXkD3PrEsiFK4NrUQRf4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 16:25:46 GMT"
+          "Value": "Mon, 06 Jan 2025 08:09:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15859,52 +16051,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ym1GYAgWbdMu+0nIhMM4VTS6nB1rYvJpHkNtF7OHd6w="
-        }
-      ]
-    },
-    {
-      "Route": "css/headers/primary-header.ub2wy66ktt.css",
-      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\headers\\primary-header.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18105"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ym1GYAgWbdMu+0nIhMM4VTS6nB1rYvJpHkNtF7OHd6w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 16:25:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ub2wy66ktt"
-        },
-        {
-          "Name": "label",
-          "Value": "css/headers/primary-header.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ym1GYAgWbdMu+0nIhMM4VTS6nB1rYvJpHkNtF7OHd6w="
+          "Value": "sha256-DvVJYyOxRhX2/y7kcf373y3aXkD3PrEsiFK4NrUQRf4="
         }
       ]
     },
@@ -15987,6 +16134,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-2gc0pDIERaU3aj1O6jIQfYOUmoXbiDwYeBzs+JZk2kY="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/add-phone-number-page.5a3fp2kywh.css",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\add-phone-number-page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XX/Wbvn268dBf937cAOTBMryPPMz+R2+cYZHJdilBAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 19:11:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5a3fp2kywh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pages/add-phone-number-page.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XX/Wbvn268dBf937cAOTBMryPPMz+R2+cYZHJdilBAo="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/add-phone-number-page.css",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\add-phone-number-page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XX/Wbvn268dBf937cAOTBMryPPMz+R2+cYZHJdilBAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 19:11:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XX/Wbvn268dBf937cAOTBMryPPMz+R2+cYZHJdilBAo="
         }
       ]
     },
@@ -16155,6 +16384,88 @@
       ]
     },
     {
+      "Route": "css/pages/login.0xpgz8t3kd.css",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NJq5/Jfn58pOsiAzWo35bKh4e8+1rSteM75vLTgaOxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jan 2024 18:14:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0xpgz8t3kd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pages/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NJq5/Jfn58pOsiAzWo35bKh4e8+1rSteM75vLTgaOxY="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/login.css",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NJq5/Jfn58pOsiAzWo35bKh4e8+1rSteM75vLTgaOxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jan 2024 18:14:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NJq5/Jfn58pOsiAzWo35bKh4e8+1rSteM75vLTgaOxY="
+        }
+      ]
+    },
+    {
       "Route": "css/pages/main.css",
       "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\main.css",
       "Selectors": [],
@@ -16233,6 +16544,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-f5ufudb79jKAY+k1t8ahnkm5gqlkuoCgjhZtC+4mMPA="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/otp-request-page.1k8nxdypoz.css",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\otp-request-page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EQCB8g5Zerl/E1kiqGJ+XFPBqHae14lcd6ewkyKES6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 15:11:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1k8nxdypoz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pages/otp-request-page.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EQCB8g5Zerl/E1kiqGJ+XFPBqHae14lcd6ewkyKES6M="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/otp-request-page.css",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\otp-request-page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EQCB8g5Zerl/E1kiqGJ+XFPBqHae14lcd6ewkyKES6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 15:11:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EQCB8g5Zerl/E1kiqGJ+XFPBqHae14lcd6ewkyKES6M="
         }
       ]
     },
@@ -16319,8 +16712,8 @@
       ]
     },
     {
-      "Route": "js/fetch-products/fetchProducts.js",
-      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\fetch-products\\fetchProducts.js",
+      "Route": "css/pages/signup.7qjcicmklc.css",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\signup.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16329,56 +16722,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4849"
+          "Value": "7136"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"H9+FBEAXtn3iSl9Qm767ujSj1s/c1DHTqKM4QBVd7Gk=\""
+          "Value": "\"Ia+MB3KY3FfX+Rc19ii62sRxTAtXMjtYNl0MtSUMkMM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 17:24:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-H9+FBEAXtn3iSl9Qm767ujSj1s/c1DHTqKM4QBVd7Gk="
-        }
-      ]
-    },
-    {
-      "Route": "js/fetch-products/fetchProducts.pudf9907p3.js",
-      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\fetch-products\\fetchProducts.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4849"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"H9+FBEAXtn3iSl9Qm767ujSj1s/c1DHTqKM4QBVd7Gk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 30 Dec 2024 17:24:30 GMT"
+          "Value": "Sat, 04 Jan 2025 07:34:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16388,15 +16744,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pudf9907p3"
+          "Value": "7qjcicmklc"
         },
         {
           "Name": "label",
-          "Value": "js/fetch-products/fetchProducts.js"
+          "Value": "css/pages/signup.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-H9+FBEAXtn3iSl9Qm767ujSj1s/c1DHTqKM4QBVd7Gk="
+          "Value": "sha256-Ia+MB3KY3FfX+Rc19ii62sRxTAtXMjtYNl0MtSUMkMM="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/signup.css",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\css\\pages\\signup.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ia+MB3KY3FfX+Rc19ii62sRxTAtXMjtYNl0MtSUMkMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 07:34:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ia+MB3KY3FfX+Rc19ii62sRxTAtXMjtYNl0MtSUMkMM="
         }
       ]
     },
@@ -16565,51 +16958,6 @@
       ]
     },
     {
-      "Route": "js/headers/primary-header.hm1xu6ptrx.js",
-      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\headers\\primary-header.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3861"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eQw94Th74Lpuw7ac02AIJQxxBUFN1BncnmL9+A0LtJA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 11:16:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hm1xu6ptrx"
-        },
-        {
-          "Name": "label",
-          "Value": "js/headers/primary-header.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eQw94Th74Lpuw7ac02AIJQxxBUFN1BncnmL9+A0LtJA="
-        }
-      ]
-    },
-    {
       "Route": "js/headers/primary-header.js",
       "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\headers\\primary-header.js",
       "Selectors": [],
@@ -16620,7 +16968,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3861"
+          "Value": "4038"
         },
         {
           "Name": "Content-Type",
@@ -16628,11 +16976,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eQw94Th74Lpuw7ac02AIJQxxBUFN1BncnmL9+A0LtJA=\""
+          "Value": "\"UwqWbpJuRDGF41vv22qrjSmHM7yCpCmC8pXvS55ifds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Dec 2024 11:16:29 GMT"
+          "Value": "Sun, 05 Jan 2025 16:01:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16642,7 +16990,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eQw94Th74Lpuw7ac02AIJQxxBUFN1BncnmL9+A0LtJA="
+          "Value": "sha256-UwqWbpJuRDGF41vv22qrjSmHM7yCpCmC8pXvS55ifds="
+        }
+      ]
+    },
+    {
+      "Route": "js/headers/primary-header.lmcj7iovyx.js",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\headers\\primary-header.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UwqWbpJuRDGF41vv22qrjSmHM7yCpCmC8pXvS55ifds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 16:01:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lmcj7iovyx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/headers/primary-header.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UwqWbpJuRDGF41vv22qrjSmHM7yCpCmC8pXvS55ifds="
         }
       ]
     },
@@ -16811,6 +17204,170 @@
       ]
     },
     {
+      "Route": "js/pages/add-phone-number-page.5ipweew5fc.js",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\add-phone-number-page.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 15:16:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/pages/add-phone-number-page.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/pages/add-phone-number-page.js",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\add-phone-number-page.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 15:16:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/pages/login.804idtk6w2.js",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OJomdQdbLUeAcwgjrDhgNW2DBQyJMO+bNpWjUYIpIYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jan 2024 18:14:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "804idtk6w2"
+        },
+        {
+          "Name": "label",
+          "Value": "js/pages/login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OJomdQdbLUeAcwgjrDhgNW2DBQyJMO+bNpWjUYIpIYM="
+        }
+      ]
+    },
+    {
+      "Route": "js/pages/login.js",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OJomdQdbLUeAcwgjrDhgNW2DBQyJMO+bNpWjUYIpIYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 20 Jan 2024 18:14:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OJomdQdbLUeAcwgjrDhgNW2DBQyJMO+bNpWjUYIpIYM="
+        }
+      ]
+    },
+    {
       "Route": "js/pages/main.28azunzzdp.js",
       "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\main.js",
       "Selectors": [],
@@ -16893,6 +17450,88 @@
       ]
     },
     {
+      "Route": "js/pages/otp-request-page.5ipweew5fc.js",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\otp-request-page.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 12:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/pages/otp-request-page.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/pages/otp-request-page.js",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\otp-request-page.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 12:57:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
       "Route": "js/pages/product-description-page.js",
       "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\product-description-page.js",
       "Selectors": [],
@@ -16971,6 +17610,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+jKX1C4CLtH/1wyGhBlEpYrF6ydhiG4sztTSuUZVqa8="
+        }
+      ]
+    },
+    {
+      "Route": "js/pages/signup.gr85rtjceg.js",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\signup.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHpTq9yqb/hnOqzShuYiUmlGmqkxtEUCJkKC0ub8UnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 12:47:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gr85rtjceg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/pages/signup.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nHpTq9yqb/hnOqzShuYiUmlGmqkxtEUCJkKC0ub8UnU="
+        }
+      ]
+    },
+    {
+      "Route": "js/pages/signup.js",
+      "AssetFile": "C:\\Users\\simon\\OneDrive\\Desktop\\Eternal Night\\Eternal-Night\\Final-Descent\\wwwroot\\js\\pages\\signup.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHpTq9yqb/hnOqzShuYiUmlGmqkxtEUCJkKC0ub8UnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 12:47:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nHpTq9yqb/hnOqzShuYiUmlGmqkxtEUCJkKC0ub8UnU="
         }
       ]
     },

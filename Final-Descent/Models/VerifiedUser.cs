@@ -1,8 +1,8 @@
 ﻿namespace Final_Descent.Models
 {
-    public class VerifyOtpRequest
+    public class VerifiedUser
     {
         public string Email { get; set; }
-        public string OTP { get; set; }
+        public string PasswordHash { get; set; }
     }
 }

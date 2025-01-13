@@ -1,4 +1,6 @@
-﻿namespace Final_Descent.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Final_Descent.Models
 {
     public class UnverifiedUser
     {
@@ -9,5 +11,8 @@
         public string OTP { get; set; }
         public DateTime? OTPExpiration { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        [NotMapped]
+        public string ConfirmPassword { get; set; } // Temporary property for validation
     }
 }

@@ -24,6 +24,22 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/simon/OneDrive/Desktop/Eternal Night/Eternal-Night/Final-Descent/Views/Pages/AddPhoneNumberPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWRkUGhvbmVOdW1iZXJQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/simon/OneDrive/Desktop/Eternal Night/Eternal-Night/Final-Descent/Views/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/simon/OneDrive/Desktop/Eternal Night/Eternal-Night/Final-Descent/Views/Pages/OtpRequestPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcT3RwUmVxdWVzdFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/simon/OneDrive/Desktop/Eternal Night/Eternal-Night/Final-Descent/Views/Pages/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU2lnbnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/simon/OneDrive/Desktop/Eternal Night/Eternal-Night/Final-Descent/Views/Product/ProductDescriptionPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGVzY3JpcHRpb25QYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/simon/OneDrive/Desktop/Eternal Night/Eternal-Night/Final-Descent/Views/Shared/_MainLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/simon/OneDrive/Desktop/Eternal Night/Eternal-Night/Final-Descent/Views/Shared/_MinimalLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NaW5pbWFsTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/simon/OneDrive/Desktop/Eternal Night/Eternal-Night/Final-Descent/Views/Shared/_SecondaryFooter.cshtml]

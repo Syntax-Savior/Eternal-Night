@@ -31,6 +31,19 @@ window.addEventListener('scroll', function() {
 
 
 /**
+ * Header Profile Dropdown Effect
+ */
+let subMenu = document.getElementById("subMenu");
+
+function toggleMenu(){
+  subMenu.classList.toggle("drop-menu");
+}
+
+
+
+
+
+/**
  * Sidebar Menu Open, Close, and Overlay Effect
  */
 const /** {NodeElement} */ $menuIcon = document.getElementById('openMenu');

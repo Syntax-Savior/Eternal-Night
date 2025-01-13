@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Registration/register": {
+    "/api/APIsRegistration/register": {
       "post": {
         "tags": [
-          "Registration"
+          "APIsRegistration"
         ],
         "requestBody": {
           "content": {
@@ -36,10 +36,10 @@
         }
       }
     },
-    "/api/Registration/send-otp": {
+    "/api/APIsRegistration/verify-otp": {
       "post": {
         "tags": [
-          "Registration"
+          "APIsRegistration"
         ],
         "requestBody": {
           "content": {
@@ -67,26 +67,26 @@
         }
       }
     },
-    "/api/Registration/verify-otp": {
+    "/api/APIsRegistration/add-phone-number": {
       "post": {
         "tags": [
-          "Registration"
+          "APIsRegistration"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/VerifyOtpRequest"
+                "type": "string"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/VerifyOtpRequest"
+                "type": "string"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/VerifyOtpRequest"
+                "type": "string"
               }
             }
           }
@@ -98,30 +98,243 @@
         }
       }
     },
-    "/api/Registration/finalize-registration": {
+    "/Payment/Initialize": {
       "post": {
         "tags": [
-          "Registration"
+          "Payment"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/FinalizeRegistrationRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/FinalizeRegistrationRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/FinalizeRegistrationRequest"
-              }
+        "parameters": [
+          {
+            "name": "amount",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "phoneNumber",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           }
-        },
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/RazorViewsRegistrationController/signup": {
+      "get": {
+        "tags": [
+          "RazorViewsRegistration"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "RazorViewsRegistration"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "FullName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "PasswordHash",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "OTP",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "OTPExpiration",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "CreatedAt",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "ConfirmPassword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/RazorViewsRegistrationController/otp-request-page": {
+      "get": {
+        "tags": [
+          "RazorViewsRegistration"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "RazorViewsRegistration"
+        ],
+        "parameters": [
+          {
+            "name": "otp",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/RazorViewsRegistrationController/verify-otp": {
+      "post": {
+        "tags": [
+          "RazorViewsRegistration"
+        ],
+        "parameters": [
+          {
+            "name": "otp",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/RazorViewsRegistrationController/add-phone-number": {
+      "get": {
+        "tags": [
+          "RazorViewsRegistration"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "RazorViewsRegistration"
+        ],
+        "parameters": [
+          {
+            "name": "phoneNumber",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/RazorViewsRegistrationController/login": {
+      "get": {
+        "tags": [
+          "RazorViewsRegistration"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "RazorViewsRegistration"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "password",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/RazorViewsRegistrationController/logout": {
+      "post": {
+        "tags": [
+          "RazorViewsRegistration"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -290,20 +503,6 @@
   },
   "components": {
     "schemas": {
-      "FinalizeRegistrationRequest": {
-        "type": "object",
-        "properties": {
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "phoneNumber": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "UnverifiedUser": {
         "type": "object",
         "properties": {
@@ -335,18 +534,8 @@
           "createdAt": {
             "type": "string",
             "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
-      "VerifyOtpRequest": {
-        "type": "object",
-        "properties": {
-          "email": {
-            "type": "string",
-            "nullable": true
           },
-          "otp": {
+          "confirmPassword": {
             "type": "string",
             "nullable": true
           }

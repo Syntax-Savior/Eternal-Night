@@ -1,4 +1,5 @@
-﻿<header class="header" id="header" data-header>
+﻿
+<header class="header" id="header" data-header>
   <div class="container">
 
     <div class="top-header">
@@ -48,18 +49,97 @@
           <span class="material-symbols-outlined">shopping_cart</span>
         </a>
       </div>
+      
+      @if (ViewBag.IsLoggedIn)
+      {
 
-      <a href="#">
-        <button class="login-button">
-          <span>Login</span>
-        </button>
-      </a>
+        <div class="wish-list top-item">
+          <a href="#" class="wishlist-icon top-icons">
+            <span class="material-symbols-outlined icon">favorite</span>
+          </a>
+        </div>
 
-      <a href="#">
-        <button class="sign-up-button">
-          <span>Sign Up</span>
-        </button>
-      </a>
+        <div class="shopping-cart top-item">
+          <a href="#" class="cart-icon top-icons">
+            <span class="material-symbols-outlined icon">shopping_cart</span>
+          </a>
+        </div>
+
+        <div class="notification-bell top-item">
+          <a href="#" class="bell-icon top-icons">
+            <span class="material-symbols-outlined icon">notifications</span>
+          </a>
+        </div>
+
+        <div class="profile-picture">
+          <nav class="drop-down-menu" aria-label="User Profile Menu">
+            <img src="../Assets/Images/Icons/Default-Profile-Avatar.png" alt="" class="user-picture" onclick="toggleMenu()">
+
+            <div class="sub-menu-wrap" id="subMenu">
+
+              <div class="sub-menu">
+
+                <a href="#" class="user-info">
+                  <img src="../Assets/Images/Icons/Default-Profile-Avatar.png" alt="User Profile Picture" class="profile-picture">
+                  <h3 class="user-name">Simon Michael</h3>
+                </a>
+                <hr class="sub-menu-divider">
+
+                <a href="#" class="sub-menu-link">
+                  <p>Account settings</p>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                  <p>Payment methods</p>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                  <p>Subscriptions</p>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                  <p>Purchase history</p>
+                </a>
+                <hr class="sub-menu-divider">
+
+                <a href="#" class="sub-menu-link">
+                  <p>Edit profile</p>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                  <p>Help</p>
+                </a>
+
+                <form method="post" asp-controller="RazorViewsRegistration" asp-action="Logout" class="sub-menu-link logout">
+                  <button type="submit">
+                    <p>Log out</p>
+                  </button>
+                </form>
+
+              </div>
+
+            </div>
+
+          </nav>
+        </div>
+
+      }
+      else
+      {
+
+        <a href="/RazorViewsRegistrationController/login">
+          <button class="login-button">
+            <span>Login</span>
+          </button>
+        </a>
+
+        <a href="/RazorViewsRegistrationController/signup">
+          <button class="sign-up-button">
+            <span>Sign Up</span>
+          </button>
+        </a>
+
+      }
 
     </div>
 

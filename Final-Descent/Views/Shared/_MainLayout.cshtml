@@ -1,9 +1,16 @@
-﻿<!DOCTYPE html>
+﻿@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+
+<!DOCTYPE html>
 
 <html lang="en">
   <head>
     <meta charset="UTF-8" dir="ltr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--
+    - CSRF token
+    -->
+    <meta name="csrf-token" content="@Antiforgery.GetAndStoreTokens(ViewContext.HttpContext).RequestToken">
 
     <!--
       - primary meta tags

@@ -1,0 +1,95 @@
+﻿@{
+  Layout = "~/Views/Shared/_MinimalLayout.cshtml";
+  ViewData["Title"] = "Add Phone Number";
+}
+
+<!--
+  - #Header
+-->
+
+<header class="header">
+  <div class="header-spacings">
+    <div class="header-content wrapper">
+      <a href="#" target="_self" class="logo-link">
+        <img src="../Assets/Images/SP-removebg-preview.png" alt="Senior Project" class="logo">
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <article>
+
+    <!--
+      - #OTP Request Form
+    -->
+
+    <section class="section phone-number">
+      <div class="content-Pno wrapper">
+        <div class="phone-number-box">
+          <div class="box-inner">
+
+            <div class="form-container">
+
+              <div class="form-header">
+
+                <div class="header-title">
+                  <h1>Add mobile number</h1>
+                </div>
+
+                <div class="header-body-small">
+                  <span>To enhance your account security, add and verify your mobile number.</span>
+                </div>
+
+              </div>
+
+              <form method="post" asp-controller="RazorViewsRegistration" asp-action="AddPhoneNumber" class="phone-number-form">
+
+                <div class="input-box">
+
+                  <div class="input-box-text">
+                    <span class="form-label">Mobile number</span>
+                  </div>
+
+                  <div class="input-number-container">
+                    <input class="input-field" type="text" name="PhoneNumber" placeholder="0900000000" required>
+                  </div>
+
+                </div>
+
+                <div class="phone-number-reason">
+                  <span class="reason-text">
+                    By enrolling a mobile phone number, you consent to receive automated
+                    security notifications via text message from Senior Project. Your
+                    mobile phone number will not be shared with third parties or affiliates
+                    for marketing or promotional purposes without your permission. Remove
+                    your number in Login & Security to cancel. Message and data rates
+                    may apply. Message frequency varies.
+                  </span>
+                </div>
+
+                <button type="submit" class="add-Pno-button">
+                  <div class="button-container">
+                    <span class="button-text">Add mobile number</span>
+                  </div>
+                </button>
+
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </article>
+</main>
+
+@section Styles {
+  <link rel="stylesheet" href="/css/pages/add-phone-number-page.css">
+}
+
+@section Scripts {
+  <script src="/js/pages/add-phone-number-page.js"></script>
+}

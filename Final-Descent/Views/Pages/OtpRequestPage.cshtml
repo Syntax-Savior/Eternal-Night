@@ -1,0 +1,89 @@
+﻿@{
+  Layout = "~/Views/Shared/_MinimalLayout.cshtml";
+  ViewData["Title"] = "Verify Email";
+}
+
+<!--
+  - #Header
+-->
+
+<header class="header">
+  <div class="header-spacings">
+    <div class="header-content wrapper">
+      <a href="#" target="_self" class="logo-link">
+        <img src="../Assets/Images/SP-removebg-preview.png" alt="Senior Project" class="logo">
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <article>
+
+    <!--
+      - #OTP Request Form
+    -->
+
+    <section class="section otp-form">
+      <div class="otp-content wrapper">
+        <div class="otp-request-box">
+          <div class="box-inner">
+
+            <div class="form-container">
+
+              <div class="form-header">
+
+                <div class="header-title">
+                  <h1>Verify email address</h1>
+                </div>
+
+                <div class="header-body-small">
+                  <span>To verify your email, we've sent a One Time Password (OTP) to your email address.</span>
+                  <a href="#" class="change-email-address">(Change)</a>
+                </div>
+
+              </div>
+
+              <form class="otp-form" method="post" asp-controller="RazorViewsRegistration" asp-action="VerifyOTP">
+
+                <div class="input-box">
+
+                  <div class="input-box-text">
+                    <span class="form-label">Enter OTP</span>
+                  </div>
+
+                  <div class="input-code-container">
+                    <input class="input-field" type="text" name="otp" placeholder="Enter OTP" required>
+                  </div>
+
+                </div>
+
+                <button type="submit" class="verify-button">
+                  <div class="button-container">
+                    <span class="button-text">Verify</span>
+                  </div>
+                </button>
+
+              </form>
+
+              <div class="resend-code">
+                <a href="/RazorViewsRegistrationController/ResendOtp" class="resend-otp-code">Resend OTP</a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </article>
+</main>
+
+@section Styles {
+  <link rel="stylesheet" href="/css/pages/otp-request-page.css">
+}
+
+@section Scripts {
+  <script src="/js/pages/otp-request-page.js"></script>
+}
