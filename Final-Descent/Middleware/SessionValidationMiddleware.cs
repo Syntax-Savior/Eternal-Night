@@ -86,7 +86,9 @@ namespace Final_Descent.Middleware
                    path.StartsWithSegments("/js") ||
                    path.StartsWithSegments("/css") ||
                    path.StartsWithSegments("/Assets") ||
-                   path.StartsWithSegments("/lib");
+                   path.StartsWithSegments("/lib") ||
+                   path.StartsWithSegments("/api/Auth/generate-token") ||
+                   path.StartsWithSegments("/api/Test/add-product");
         }
     }
 }

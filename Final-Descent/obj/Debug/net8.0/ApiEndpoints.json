@@ -48,6 +48,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Final_Descent.Controllers.AuthController",
+    "Method": "GenerateToken",
+    "RelativePath": "api/Auth/generate-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenRequest",
+        "Type": "Final_Descent.Controllers.AuthController\u002BTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Final_Descent.Controllers.TestController",
     "Method": "AddProduct",
     "RelativePath": "api/Test/add-product",
@@ -56,29 +72,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "title",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "imageUrl",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "price",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "originalPrice",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "currency",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "product",
+        "Type": "Final_Descent.Models.ProductModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
